@@ -1,0 +1,9 @@
+import{chromium}from'playwright';import assert from'node:assert/strict';
+const b=await chromium.launch({channel:'chrome'});let count=0;const errors=[];
+for(const [width,height] of [[770,752],[800,650],[1366,768],[1440,900],[1920,1080],[1280,720],[1000,650],[600,768]])for(const large of[false,true])for(const mode of['long','short']){
+ const p=await b.newPage({viewport:{width,height}});p.on('pageerror',e=>errors.push(e.message));await p.goto('http://127.0.0.1:5174/review/?page=inference');await p.locator('.archiveSheet').waitFor();await p.getByLabel('文本状态').selectOption(mode);if(large)await p.getByLabel('放大文字',{exact:true}).check();await p.evaluate(()=>document.fonts.ready);
+ for(let n=0;n<5;n++){
+ const bad=await p.locator('.inferenceWorkspace').evaluate(root=>{const bad=[];const heading=root.querySelector('.archiveHeading').getBoundingClientRect();const sheet=root.querySelector('.archiveSheet');if(sheet&&sheet.getBoundingClientRect().top<heading.bottom+4)bad.push('资料卡覆盖上方标题');for(const paper of root.querySelectorAll('.archiveSheet,.answer,.inferenceDecision')){const r=paper.getBoundingClientRect();for(const e of paper.querySelectorAll('p,label,.lookupWord,.archiveTab')){if(!e.getClientRects().length)continue;for(const q of e.getClientRects())if(q.top<r.top+1||q.bottom>r.bottom-1||q.left<r.left+1||q.right>r.right-1)bad.push(e.textContent)}}return bad});assert.deepEqual(bad,[],`${width}x${height}/${large}/${mode}/page${n}: outside own paper`);count++;
+ if(width===1366&&!large&&mode==='long')await p.screenshot({path:`tests/screenshots/audit-inference-${n}.png`});const next=p.locator('.inferenceWorkspace>.archivePager').getByRole('button',{name:'下一页',exact:true});if(await next.isDisabled())break;await next.click();
+ }await p.close();
+}assert.deepEqual(errors,[]);await b.close();console.log(count,'推论资料/结论状态通过，逐个文字片段位于实际纸面内');

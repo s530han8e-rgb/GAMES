@@ -1,0 +1,185 @@
+{
+  "scope": "static_art_handoff_not_game_approval",
+  "stage2StaticGate": "reviewed_2026-10-12",
+  "canvas": [
+    1672,
+    941
+  ],
+  "background": "素材/BG_OLDHOUSE_STRUCTURE_v06_selected.png",
+  "door": {
+    "file": "素材/DOOR_CLOSED_v02_selected.png",
+    "registration": "门层配准.json",
+    "z": 2,
+    "pressureRegistration": "门状态配准.json"
+  },
+  "chair": {
+    "file": "素材/ITEM_CHAIR_BRACE_v06_selected.png",
+    "scale": 0.3,
+    "xy": [
+      235,
+      349
+    ],
+    "z": 4,
+    "successHitTarget": "existing_inner_support_not_handle",
+    "contactShadows": [
+      [
+        474,
+        733,
+        13,
+        2
+      ],
+      [
+        580,
+        700,
+        11,
+        2
+      ]
+    ]
+  },
+  "bottle": {
+    "file": "素材/ITEM_BOTTLE_LANDED_v01_selected.png",
+    "scale": 0.055,
+    "xy": [
+      245,
+      714
+    ],
+    "z": 5,
+    "farTargetPercent": [
+      13,
+      72,
+      9,
+      10
+    ],
+    "exitNearPercent": [
+      70,
+      52,
+      13,
+      12
+    ],
+    "selfNearPercent": [
+      54,
+      65,
+      14,
+      9
+    ]
+  },
+  "threatFeedback": {
+    "mode": "brief_narrative_cutaway_inset_only",
+    "base": "素材/BG_OLDHOUSE_STRUCTURE_v06_selected.png",
+    "crop": [
+      127,
+      48,
+      380,
+      666
+    ],
+    "spriteScale": 0.35,
+    "spriteXY": [
+      74,
+      136
+    ],
+    "before": "素材/THREAT_ANONYMOUS_v01_selected.png",
+    "after": "素材/THREAT_TURN_v02_selected.png",
+    "neverRenderAboveOpaqueDoorAsWorldSprite": true,
+    "note": "带框叙事切镜，只展示门另一侧的匿名人物反应；绝不作为穿过门扇的场景人物。转向被声音吸引，不新增可达院落。"
+  },
+  "retreat": {
+    "file": "素材/REF_RETREAT_SPACE_v01_selected.png",
+    "usage": "local_detail_inset_not_fullframe",
+    "size": [
+      680,
+      383
+    ],
+    "xy": [
+      980,
+      80
+    ]
+  },
+  "care": {
+    "ready": "素材/CARE_READY_v04_selected.png",
+    "pressure": "素材/CARE_PRESSURE_v04_selected.png",
+    "covered": "素材/CARE_COVERED_v05_selected.png",
+    "render": "same_camera_closeup_inset_keep_house_underlay",
+    "injuryDetail": "not_drawn_narrative_unchanged",
+    "side": "anatomical_left_never_flip",
+    "sameCanvas": true,
+    "panel": [
+      75,
+      90,
+      490,
+      570
+    ],
+    "localScale": 0.36,
+    "localXY": [
+      60,
+      5
+    ]
+  },
+  "exit": {
+    "file": "素材/CHAR_HERO_EXIT_v05_selected.png",
+    "scale": 0.3,
+    "xy": [
+      1240,
+      190
+    ],
+    "needs": "covered_before_exit_then_shed_reunion",
+    "contactShadow": {
+      "centers": [
+        [
+          1396,
+          633
+        ],
+        [
+          1418,
+          607
+        ]
+      ],
+      "radius": [
+        17,
+        2
+      ],
+      "onlyWhenExit": true
+    }
+  },
+  "effects": {
+    "petals": {
+      "onlyOnRose": true,
+      "floorBox": [
+        265,
+        710,
+        130,
+        65
+      ],
+      "countByError": [
+        3,
+        6,
+        9
+      ],
+      "noFullFrameRow": true
+    },
+    "pillow": {
+      "onlyOnPillow": true,
+      "floorAnchor": [
+        420,
+        700
+      ],
+      "endOnFloor": true,
+      "preserveChairAndBottle": true
+    },
+    "contactSvg": "接触影.svg",
+    "contactSvgMustToggleGroups": {
+      "chair": "blocked",
+      "bottle": "diverted",
+      "exit": "exit"
+    }
+  },
+  "persistentFlags": [
+    "scratched",
+    "blocked",
+    "diverted",
+    "careComplete",
+    "observations",
+    "clues"
+  ],
+  "releaseApproved": false,
+  "reason": "椅背接触与前脚承重已重修；离屋改为阈限处双脚落地的静态关键帧。仍需原游戏验收。"
+}

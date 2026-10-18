@@ -1,0 +1,15 @@
+{
+  "assetId": "COVER_START_v01",
+  "relativePath": "art/covers/COVER_START_v01.png",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sha256": "6c6b136cf0f8166c3d244b353796df475ff41f848db8548f99c07879a037dbe4",
+  "sourceFile": "游戏材料/游戏封面.png",
+  "approval": "user-selected original, unmodified",
+  "usage": "start-page-only",
+  "decorative": true,
+  "containsTitle": true,
+  "evidenceSource": false
+}

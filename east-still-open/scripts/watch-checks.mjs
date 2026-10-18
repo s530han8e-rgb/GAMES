@@ -1,0 +1,19 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';
+import {projectRoot,atomic,readJSON,alive,lock,runChecks,publish} from './check-game.mjs';
+const root=projectRoot,checks=path.join(root,'checks');fs.mkdirSync(checks,{recursive:true});
+if(process.argv.includes('--stop')){const owner=readJSON(path.join(checks,'watch.lock/owner.json'));if(!owner||!alive(owner.pid)){console.log('没有正在运行的源码监控。');process.exit(0)}atomic(path.join(checks,'stop-watch.json'),JSON.stringify({token:owner.token,requestedAt:new Date().toISOString()}));console.log('已请求停止本项目监控；不会停止游戏预览或其他程序。');process.exit(0)}
+const guard=lock(root,'watch');if(!guard){console.log('本项目已有源码监控，不重复启动。');process.exit(0)}
+let active=true,running=false,timer,runCount=0,pending=new Set();const handles=[],controller=new AbortController();const debounce=700;
+const relevant=f=>/^src\/.+\.(ts|tsx|css|json)$/.test(f)||/^(tests|scripts)\/.+\.(test\.ts|mjs)$/.test(f)||['package.json','package-lock.json','tsconfig.json','index.html'].includes(f);
+function fingerprints(){const map=new Map();const scan=d=>{if(!fs.existsSync(d))return;for(const e of fs.readdirSync(d,{withFileTypes:true})){const abs=path.join(d,e.name);if(e.isDirectory()){if(e.name!=='screenshots')scan(abs)}else{const f=path.relative(root,abs).split(path.sep).join('/');if(relevant(f))map.set(f,crypto.createHash('sha256').update(fs.readFileSync(abs)).digest('hex'))}}};for(const d of ['src','tests','scripts'])scan(path.join(root,d));for(const f of ['package.json','package-lock.json','tsconfig.json','index.html'])if(fs.existsSync(path.join(root,f)))map.set(f,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,f))).digest('hex'));return map}
+let previous=fingerprints();
+function status(){atomic(path.join(checks,'watch.json'),JSON.stringify({pid:process.pid,token:guard.token,active,running,runCount,pending:[...pending],updatedAt:new Date().toISOString()},null,2));}
+function refreshPage(){const report=readJSON(path.join(checks,'latest.json'));if(report)publish(root,report)}
+async function drain(){if(!active||running)return;const changes=[...pending];if(!changes.length)return;pending.clear();running=true;status();const result=await runChecks({root,mode:'quick',trigger:changes.includes('(启动)')?'启动监控':'源码保存',changedFiles:changes.filter(x=>x!=='(启动)'),signal:controller.signal});running=false;if(result.busy){changes.forEach(c=>pending.add(c));if(active)timer=setTimeout(drain,1000)}else{runCount++;if(active&&pending.size)timer=setTimeout(drain,debounce)}status();}
+function changed(){if(!active)return;let next;try{next=fingerprints()}catch{clearTimeout(timer);timer=setTimeout(changed,debounce);return}let any=false;for(const f of new Set([...previous.keys(),...next.keys()]))if(previous.get(f)!==next.get(f)){pending.add(f);any=true}previous=next;if(any){status();refreshPage();clearTimeout(timer);timer=setTimeout(drain,debounce)}}
+function stop(){if(!active)return;active=false;clearTimeout(timer);clearInterval(heartbeat);clearInterval(sourcePoll);handles.forEach(h=>h.close());controller.abort();status();refreshPage();if(!running)guard.release();console.log('本地源码监控已停止。')}
+// Content fingerprints also work when OS directory watching is unavailable.
+const sourcePoll=setInterval(changed,400);
+const heartbeat=setInterval(()=>{const request=readJSON(path.join(checks,'stop-watch.json'));if(request?.token===guard.token){fs.rmSync(path.join(checks,'stop-watch.json'),{force:true});stop()}else status();if(!active&&!running){guard.release();clearInterval(heartbeat)}},500);
+for(const signal of ['SIGINT','SIGTERM','SIGHUP'])process.on(signal,stop);process.on('exit',()=>guard.release());
+status();pending.add('(启动)');timer=setTimeout(drain,50);console.log('源码自动检查已启动。连续保存合并；已有检查时排队；结果：checks/latest.html。关闭后需重新启动。');

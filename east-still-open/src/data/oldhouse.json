@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "status": "formal-package-runtime-integration",
+  "releaseApproved": false,
+  "canvas": [
+    1672,
+    941
+  ],
+  "coordinateSpace": "source canvas scaled uniformly into contain rectangle, never viewport",
+  "targets": {
+    "block": [
+      [
+        23,
+        43,
+        16,
+        22
+      ],
+      [
+        19,
+        31,
+        7,
+        13
+      ],
+      [
+        41,
+        60,
+        14,
+        14
+      ]
+    ],
+    "divert": [
+      [
+        13,
+        72,
+        9,
+        10
+      ],
+      [
+        70,
+        52,
+        13,
+        12
+      ],
+      [
+        54,
+        65,
+        14,
+        9
+      ]
+    ],
+    "pressure": [
+      [
+        41,
+        37,
+        18,
+        16
+      ],
+      [
+        27,
+        33,
+        12,
+        15
+      ],
+      [
+        65,
+        43,
+        12,
+        14
+      ]
+    ],
+    "cover": [
+      [
+        41,
+        37,
+        18,
+        16
+      ],
+      [
+        27,
+        33,
+        12,
+        15
+      ],
+      [
+        65,
+        43,
+        12,
+        14
+      ]
+    ]
+  },
+  "notes": [
+    "Door projection comes exclusively from formal-door-states.json; closed state is fixed after B_BLOCK.",
+    "Chair: formal ITEM_CHAIR_BRACE_v06_selected.png, scale .3 at [235,349]. No sprite rotation or reflection.",
+    "Bottle: formal ITEM_BOTTLE_LANDED_v01_selected.png, scale .055 at [245,714].",
+    "Care targets follow the framed route-specific closeup; route B layout override is documented in formal-layout-overrides.json."
+  ]
+}

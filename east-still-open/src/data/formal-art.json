@@ -1,0 +1,3090 @@
+{
+  "date": "2026-10-14",
+  "scope": "现有RPD规定的静态场景、人物、工具、效果、界面资源；不含动画",
+  "assetCount": 83,
+  "sceneAndCharacterAssetCount": 69,
+  "staticProductionComplete": false,
+  "staticCompositionReviewed": true,
+  "gameRuntimeVerified": false,
+  "releaseApproved": false,
+  "browserRenderingVerified": true,
+  "browserRenderingNote": "82件文件校验值核对；原81件浏览器解码记录保留，新增家庭底图在真实对白中加载并检查。",
+  "assets": [
+    {
+      "assetId": "DOOR_CLOSED",
+      "sceneId": "S11B",
+      "stateId": "关门",
+      "relativePath": "素材/DOOR_CLOSED_v02_selected.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        189,
+        48,
+        1306,
+        908
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/DOOR_CLOSED_v02_review.png",
+      "sha256": "b0205dce02ce4a43177c99e95e2e093c22ed0303a6bbde1b114cad61811dc363",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1377515,
+      "integrationAliases": [
+        "DOOR_CLOSED_v02_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_CHAIR_BRACE",
+      "sceneId": "TB01",
+      "stateId": "支撑成功",
+      "relativePath": "素材/ITEM_CHAIR_BRACE_v06_selected.png",
+      "dimensions": [
+        1173,
+        1341
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        33,
+        33,
+        1163,
+        1341
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/ITEM_CHAIR_BRACE_v06_candidate.png",
+      "sha256": "8d3637a4717764c0294a687dbc88f9c42c9c1ba020ac88e01e8382a1d5771b63",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1075050,
+      "integrationAliases": [
+        "ITEM_CHAIR_BRACE_v06_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_BOTTLE_LANDED",
+      "sceneId": "TB02",
+      "stateId": "远落点",
+      "relativePath": "素材/ITEM_BOTTLE_LANDED_v01_selected.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        0,
+        1526,
+        1000
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/ITEM_BOTTLE_LANDED_v01_review.png",
+      "sha256": "03d4965a5a97bec0f5c16db337861f13abf839de2f23ced847776c7bf8565c67",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 935326,
+      "integrationAliases": [
+        "ITEM_BOTTLE_LANDED_v01_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "REF_RETREAT_SPACE",
+      "sceneId": "S11B",
+      "stateId": "实体暂避",
+      "relativePath": "素材/REF_RETREAT_SPACE_v01_selected.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/REF_RETREAT_SPACE_v01_review.png",
+      "sha256": "eb6a8e817f58de5d031c3f1ce2f471a9038624cf3f5887477d64b30f5044338a",
+      "integrationAliases": [
+        "REF_RETREAT_SPACE_v01_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CARE_READY",
+      "sceneId": "TB03",
+      "stateId": "准备",
+      "relativePath": "素材/CARE_READY_v04_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/CARE_READY_v04_candidate.png",
+      "sha256": "f5d9e935d804aa69fec6d145999f0e5deb78089a5606ef167b4255bdbe40a1af",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 531137,
+      "integrationAliases": [
+        "CARE_READY_v04_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CARE_PRESSURE",
+      "sceneId": "TB03",
+      "stateId": "按压",
+      "relativePath": "素材/CARE_PRESSURE_v04_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/CARE_PRESSURE_v04_candidate.png",
+      "sha256": "88b2948a1ae72aa26cc3336619dffca2e5217a777667a46702b54c30b9b4d390",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 527924,
+      "integrationAliases": [
+        "CARE_PRESSURE_v04_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CARE_COVERED",
+      "sceneId": "TB03",
+      "stateId": "固定覆盖",
+      "relativePath": "素材/CARE_COVERED_v05_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/CARE_COVERED_v05_candidate.png",
+      "sha256": "265d830bc00e467b270dd91013017b5dc532cb0b1cd1c4278108d073f1654259",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 529158,
+      "integrationAliases": [
+        "CARE_COVERED_v05_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_HERO_EXIT",
+      "sceneId": "S11B",
+      "stateId": "处理后离屋",
+      "relativePath": "素材/CHAR_HERO_EXIT_v05_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        33,
+        0,
+        956,
+        1496
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/CHAR_HERO_EXIT_v05_candidate.png",
+      "sha256": "623e36acd40384a1d7bf13c28fe68c8f124b78016880e0fb677ac887ff8454b2",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1168333,
+      "integrationAliases": [
+        "CHAR_HERO_EXIT_v05_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_END_A",
+      "sceneId": "S13",
+      "stateId": "向熟人传警告",
+      "relativePath": "素材/BG_END_A_v04_selected.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/BG_END_A_v04_review.png",
+      "sha256": "a7e964934b6ea87bd102af70f70f3256bb8e902ffcb9dc2746b282660349150e",
+      "integrationAliases": [
+        "BG_END_A_v04_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_END_B",
+      "sceneId": "S13",
+      "stateId": "自群体停下",
+      "relativePath": "素材/BG_END_B_v04_selected.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/BG_END_B_v04_review.png",
+      "sha256": "fb49b55e746603d0347c5b1e30fb8332186bfbcacca6406b2ac875bd8e3bd722",
+      "integrationAliases": [
+        "BG_END_B_v04_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "SCENE_HOME_UNCLE_DEPART",
+      "sceneId": "S01",
+      "stateId": "舅舅提袋出门",
+      "relativePath": "素材/SCENE_HOME_UNCLE_DEPART_v02_foodlocked.svg",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/SCENE_HOME_UNCLE_DEPART_v02_foodlocked.svg",
+      "sha256": "b8a4334c91b1b9ab2a6563cf19f1712b10c50b41a9a83274ae1bc214d5f7ad25",
+      "integrationAliases": [
+        "SCENE_HOME_UNCLE_DEPART_v02_foodlocked"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "SCENE_HOME_CARRY_BAG",
+      "sceneId": "S01",
+      "stateId": "帮提袋",
+      "relativePath": "素材/SCENE_HOME_CARRY_BAG_v02_foodlocked.svg",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/SCENE_HOME_CARRY_BAG_v02_foodlocked.svg",
+      "sha256": "b025edc9f13199d2337b5a71ef26c4e22cf872cada83d4a850a3e061cb656e9a",
+      "integrationAliases": [
+        "SCENE_HOME_CARRY_BAG_v02_foodlocked"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_HERO_CHECK_BAG",
+      "sceneId": "S01",
+      "stateId": "检查袋子",
+      "relativePath": "素材/CHAR_HERO_CHECK_BAG_v03_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        0,
+        1016,
+        1536
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/CHAR_HERO_CHECK_BAG_v03_candidate.png",
+      "sha256": "f5d0465c3a031f9b94be6ff512ddbae702e1259b73797756516e05e845c9e439",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 594242,
+      "integrationAliases": [
+        "CHAR_HERO_CHECK_BAG_v03_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "SCENE_HOME_HOLD_DOOR",
+      "sceneId": "S01",
+      "stateId": "扶门",
+      "relativePath": "素材/SCENE_HOME_HOLD_DOOR_v02_foodlocked.svg",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/SCENE_HOME_HOLD_DOOR_v02_foodlocked.svg",
+      "sha256": "1cf465790c083083fea721d16479c518e7ffb980067b4beddf2872e34bdcee54",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 594242,
+      "integrationAliases": [
+        "SCENE_HOME_HOLD_DOOR_v02_foodlocked"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_ELDER_WELCOME",
+      "sceneId": "S02",
+      "stateId": "认出与请进屋",
+      "relativePath": "素材/CHAR_ELDER_WELCOME_v03_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        43,
+        25,
+        1004,
+        1504
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/CHAR_ELDER_WELCOME_v03_review.png",
+      "sha256": "423fafa43adbd50f1e158357c574f1c4cef8acf06a60a7ea7ec7cdee29fe37d7",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1097369,
+      "integrationAliases": [
+        "CHAR_ELDER_WELCOME_v03_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_ELDER_UNSTEADY",
+      "sceneId": "S02",
+      "stateId": "老人协调异常",
+      "relativePath": "素材/CHAR_ELDER_UNSTEADY_v02_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        97,
+        6,
+        984,
+        1504
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/CHAR_ELDER_UNSTEADY_v02_review.png",
+      "sha256": "8328a0450c624f72f5e8e00dd8f86f46f4b32c1c213e0ad210d6e6007f1d7676",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1049568,
+      "integrationAliases": [
+        "CHAR_ELDER_UNSTEADY_v02_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ACTION_ELDER_UNCLE_CONFLICT",
+      "sceneId": "S02",
+      "stateId": "冲突动作",
+      "relativePath": "素材/ACTION_ELDER_UNCLE_CONFLICT_v07_selected.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        33,
+        12,
+        1458,
+        996
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/ACTION_ELDER_UNCLE_CONFLICT_v07_candidate.png",
+      "sha256": "fe66821e363c0d30cb015f4c4d2e67dc550c98a1897a75fa38456a98260080b0",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1062622,
+      "integrationAliases": [
+        "ACTION_ELDER_UNCLE_CONFLICT_v07_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_UNCLE_PILLAR_SUPPORT",
+      "sceneId": "S10",
+      "stateId": "扶柱协调困难",
+      "relativePath": "素材/CHAR_UNCLE_PILLAR_SUPPORT_v01_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        0,
+        1006,
+        1504
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/CHAR_UNCLE_PILLAR_SUPPORT_v01_review.png",
+      "sha256": "83de326dee5f05baee3ae42312b3174234d82e9e82e605edb91f7f78bef0fd71",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1083404,
+      "integrationAliases": [
+        "CHAR_UNCLE_PILLAR_SUPPORT_v01_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_BENCH_TIRED",
+      "sceneId": "S05",
+      "stateId": "疲惫对白",
+      "relativePath": "素材/CHAR_BENCH_TIRED_v02_selected.png",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        19,
+        21,
+        1199,
+        1312
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/CHAR_BENCH_TIRED_v02_review.png",
+      "sha256": "1cc74bf55e4ba2f1af9a2e8e65ba533e05bcfefa473c8d8c32d2784d21c69a01",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 524890,
+      "integrationAliases": [
+        "CHAR_BENCH_TIRED_v02_review",
+        "长椅路人_疲惫交流_BENCH_TIRED"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "SCENE_BENCH_RISE",
+      "sceneId": "S05",
+      "stateId": "尝试起身",
+      "relativePath": "素材/SCENE_BENCH_RISE_v01_selected.png",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/SCENE_BENCH_RISE_v01_review.png",
+      "sha256": "1868c353a2e191aa91bc3cf845eab91df7cacd26351a163ade87115314c25a80",
+      "integrationAliases": [
+        "SCENE_BENCH_RISE_v01_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BENCH_RESEAT_TRANSITION",
+      "sceneId": "S05",
+      "stateId": "失衡后触座",
+      "relativePath": "素材/BENCH_RESEAT_TRANSITION_v01_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        17,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/BENCH_RESEAT_TRANSITION_v01_review.png",
+      "sha256": "67dc6a3237dc93f8e3887973d3a4a28195d870cf79770f0f17efc9b101154939",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 890281,
+      "integrationAliases": [
+        "BENCH_RESEAT_TRANSITION_v01_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_SHELTER_IN_BASE",
+      "sceneId": "S08",
+      "stateId": "安置点连续空母版",
+      "relativePath": "素材/BG_SHELTER_IN_BASE_v03_selected.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/BG_SHELTER_IN_BASE_v03_review.png",
+      "sha256": "7ad9d93033a6754fbba45d0babe19cba26bcdaa58e508bfe3cc80117ed85fb7f",
+      "integrationAliases": [
+        "BG_SHELTER_IN_BASE_v03_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_SHELTER_ORDINARY",
+      "sceneId": "S08",
+      "stateId": "普通居民",
+      "relativePath": "素材/CHAR_SHELTER_ORDINARY_v01_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        0,
+        990,
+        1488
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/CHAR_SHELTER_ORDINARY_v01_review.png",
+      "sha256": "76eadbb2caff43043080ad26fae9f6420680b25168f6c592bb12a1effc00847b",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1136149,
+      "integrationAliases": [
+        "CHAR_SHELTER_ORDINARY_v01_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_SHELTER_CONFUSED",
+      "sceneId": "S08",
+      "stateId": "疑惑居民",
+      "relativePath": "素材/CHAR_SHELTER_CONFUSED_v01_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        19,
+        1008,
+        1513
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/CHAR_SHELTER_CONFUSED_v01_review.png",
+      "sha256": "c3b270a739af2d04cbad8e6b7913bdf97ae044bbbecf99b2646aa4b1a32273c4",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1100931,
+      "integrationAliases": [
+        "CHAR_SHELTER_CONFUSED_v01_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_SHELTER_UNSTEADY",
+      "sceneId": "S08",
+      "stateId": "协调不稳居民",
+      "relativePath": "素材/CHAR_SHELTER_UNSTEADY_v02_selected.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        322,
+        47,
+        1652,
+        890
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/CHAR_SHELTER_UNSTEADY_v02_candidate.png",
+      "sha256": "378f61a71734ec5752b8c44eb7c88be44a68259b05714661e74dabeec681d24e",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1391282,
+      "integrationAliases": [
+        "CHAR_SHELTER_UNSTEADY_v02_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_SHELTER_UNCONTROLLED_BACK",
+      "sceneId": "S08",
+      "stateId": "进一步失控背影",
+      "relativePath": "素材/CHAR_SHELTER_UNCONTROLLED_BACK_v03_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        39,
+        47,
+        1010,
+        1474
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/CHAR_SHELTER_UNCONTROLLED_BACK_v03_candidate.png",
+      "sha256": "98dede6f7e150cdc8d9a6228af4d7bb5251345e64a095401e9b9a4aa7ee50211",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1058575,
+      "integrationAliases": [
+        "CHAR_SHELTER_UNCONTROLLED_BACK_v03_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_HOME_INHABITED",
+      "sceneId": "S01",
+      "stateId": "五人在场／分装中",
+      "relativePath": "素材/BG_HOME_INHABITED_v03_foodlocked.svg",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/BG_HOME_INHABITED_v03_foodlocked.svg",
+      "sha256": "37d3ad0c7ace0216d4ec2396aa85e5f116a7fc38f2be6436421e049796ae5a24",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1058575,
+      "integrationAliases": [
+        "BG_HOME_INHABITED_v03_foodlocked",
+        "BG_HOME_EMPTY_v03_review",
+        "BG_HOME"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_HOME_AFTER_HANDOFF",
+      "sceneId": "S01/S03/S04",
+      "stateId": "交袋后／家庭商议／手机背景",
+      "relativePath": "素材/BG_HOME_AFTER_HANDOFF_v03_foodlocked.svg",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/BG_HOME_AFTER_HANDOFF_v03_foodlocked.svg",
+      "sha256": "b61b9840a15fc4f7089eb467c4d14c6c0665bb03889a1ee56f77e2f5a3afc47e",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1058575,
+      "integrationAliases": [
+        "BG_HOME_AFTER_HANDOFF_v03_foodlocked"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_ROAD_ANOMALY",
+      "sceneId": "SHARED",
+      "stateId": "BG_ROAD_ANOMALY_v01_review",
+      "relativePath": "素材/BG_ROAD_ANOMALY_v01_selected.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/02_东行道路/BG_ROAD_ANOMALY_v01_review.png",
+      "sha256": "5530ebef8e27ca17d67b3f8c096b57cb9f31ba346ed22fe67522c719738e03d1",
+      "integrationAliases": [
+        "BG_ROAD_ANOMALY_v01_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_BENCH_EMPTY",
+      "sceneId": "SHARED",
+      "stateId": "BG_BENCH_EMPTY_v02",
+      "relativePath": "素材/BG_BENCH_EMPTY_v02.png",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/05_长椅/BG_BENCH_EMPTY_v02.png",
+      "sha256": "3be65002ee1aa4131eb86e8c9d129454f795ed0c33842e7a9060f7b3666cd991",
+      "integrationAliases": [
+        "BG_BENCH_EMPTY_v02"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_SHED_EMPTY",
+      "sceneId": "SHARED",
+      "stateId": "BG_SHED_EMPTY_v02",
+      "relativePath": "素材/BG_SHED_EMPTY_v02.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/04_院外小棚/BG_SHED_EMPTY_v02.png",
+      "sha256": "ea976cda629062e4afacd4543c5c043ab875b269b6f030ffbbbe13ffa8248a94",
+      "integrationAliases": [
+        "BG_SHED_EMPTY_v02"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_SHELTER_OUT",
+      "sceneId": "SHARED",
+      "stateId": "BG_SHELTER_OUT_v01",
+      "relativePath": "素材/BG_SHELTER_OUT_v01.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/06_安置点/BG_SHELTER_OUT_v01.png",
+      "sha256": "a15d5b899a051eb557653301bdb3ade47da8d882af98cd588e2f2935c3ee6169",
+      "integrationAliases": [
+        "BG_SHELTER_OUT_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_DESK_EMPTY",
+      "sceneId": "SHARED",
+      "stateId": "BG_DESK_EMPTY_v02",
+      "relativePath": "素材/BG_DESK_EMPTY_v02.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/06_安置点/BG_DESK_EMPTY_v02.png",
+      "sha256": "086e8736ce452ba3a26ec99c66c257026ea1cd5f3f565d94dfd6ae60562837ec",
+      "integrationAliases": [
+        "BG_DESK_EMPTY_v02"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_NEIGHBOR_EMPTY",
+      "sceneId": "S02/S10",
+      "stateId": "BG_NEIGHBOR_EMPTY_v02",
+      "relativePath": "素材/BG_NEIGHBOR_EMPTY_v02.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": false,
+      "gameRuntimeVerified": false,
+      "sourceRelativePath": "场景的图片/04_院外小棚/BG_NEIGHBOR_EMPTY_v02.png",
+      "sha256": "6a9b455563936c0019e1171c02f814d978fd5bd3b3487822b0f6299f022a5c61",
+      "integrationAliases": [
+        "BG_NEIGHBOR_EMPTY_v02"
+      ],
+      "usageNote": "沿路环境已生成，可复用备用；不把邻居空屋误映射为S04家庭留守，也不新增调查机制。",
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-12",
+      "runtimeEvidence": []
+    },
+    {
+      "assetId": "BG_END_C",
+      "sceneId": "SHARED",
+      "stateId": "BG_END_C_v01",
+      "relativePath": "素材/BG_END_C_v01.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/07_结局/BG_END_C_v01.png",
+      "sha256": "ccf3027308bf49ec1f61aa71153d4dcc6fcdbbea2f7284cc31528af752a39b98",
+      "integrationAliases": [
+        "BG_END_C_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_CHAIR",
+      "sceneId": "SHARED",
+      "stateId": "ITEM_CHAIR_v02",
+      "relativePath": "素材/ITEM_CHAIR_v02.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        21,
+        990,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/ITEM_CHAIR_v02.png",
+      "sha256": "df97a70d76e265f1452b3177459150294786ce1de66c16fda023ce6a3d56870c",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 973409,
+      "integrationAliases": [
+        "ITEM_CHAIR_v02"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_ROPE",
+      "sceneId": "SHARED",
+      "stateId": "ITEM_ROPE_v02",
+      "relativePath": "素材/ITEM_ROPE_v02.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        21,
+        1519,
+        1000
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/ITEM_ROPE_v02.png",
+      "sha256": "581701d4f242ca0441e66c2abfc3b0ab95a2a46203868b8d9f38a557a791aa45",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 863875,
+      "integrationAliases": [
+        "ITEM_ROPE_v02"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_ROSE",
+      "sceneId": "SHARED",
+      "stateId": "ITEM_ROSE",
+      "relativePath": "素材/ITEM_ROSE.png",
+      "dimensions": [
+        1234,
+        1274
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        31,
+        1214,
+        1274
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/ITEM_ROSE.png",
+      "sha256": "b39d6c59d690c41952990b3d1b48ecc6c521038ebf619c891277761e8e3f007d",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 763673,
+      "integrationAliases": [],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_PILLOW",
+      "sceneId": "SHARED",
+      "stateId": "ITEM_PILLOW_v02",
+      "relativePath": "素材/ITEM_PILLOW_v02.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        28,
+        1536,
+        1024
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/ITEM_PILLOW_v02.png",
+      "sha256": "795953afa934b64133dc2d228858589f6a97c07e0723871507b84d32e4f85ff9",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 845504,
+      "integrationAliases": [
+        "ITEM_PILLOW_v02"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_BOTTLE",
+      "sceneId": "SHARED",
+      "stateId": "ITEM_BOTTLE",
+      "relativePath": "素材/ITEM_BOTTLE.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        43,
+        84,
+        1123,
+        1355
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/ITEM_BOTTLE.png",
+      "sha256": "f1f6c27ae43c3e544ec1513e2e6cb251f2d108a374f8781d00448c46867f6df0",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1078432,
+      "integrationAliases": [],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_FLASHLIGHT",
+      "sceneId": "SHARED",
+      "stateId": "ITEM_FLASHLIGHT_v02",
+      "relativePath": "素材/ITEM_FLASHLIGHT_v02.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        62,
+        55,
+        1520,
+        1000
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/ITEM_FLASHLIGHT_v02.png",
+      "sha256": "fe7e79fa83c684e134bd60c279361da0e58f660e0c6b4f40d0b3e263fffaae22",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1026718,
+      "integrationAliases": [
+        "ITEM_FLASHLIGHT_v02"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_BASKET",
+      "sceneId": "SHARED",
+      "stateId": "ITEM_BASKET",
+      "relativePath": "素材/ITEM_BASKET.png",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        25,
+        19,
+        1274,
+        1199
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/ITEM_BASKET.png",
+      "sha256": "e22c38056a5263177304c31fce3c3ed4833373b45f0baed69ffb97ef19bfbad4",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 802916,
+      "integrationAliases": [],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_DRESSING",
+      "sceneId": "SHARED",
+      "stateId": "ITEM_DRESSING_v02",
+      "relativePath": "素材/ITEM_DRESSING_v02.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        63,
+        1426,
+        984
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/ITEM_DRESSING_v02.png",
+      "sha256": "7d582372f5fcd4ccc6c091d887a344844cb0bb8e72ad45690cfb0902b1c9abd7",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 871945,
+      "integrationAliases": [
+        "ITEM_DRESSING_v02"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "ITEM_BANDAGE",
+      "sceneId": "SHARED",
+      "stateId": "ITEM_BANDAGE",
+      "relativePath": "素材/ITEM_BANDAGE.png",
+      "dimensions": [
+        1374,
+        1145
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        57,
+        1348,
+        1145
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/ITEM_BANDAGE.png",
+      "sha256": "6cc53b2c1d4406dff51128bad82d3cb0b333f49ec38203e4099cbd90c59663e1",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 768847,
+      "integrationAliases": [],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "FX_PETAL",
+      "sceneId": "SHARED",
+      "stateId": "FX_PETAL_v02",
+      "relativePath": "素材/FX_PETAL_v02.png",
+      "dimensions": [
+        1330,
+        1182
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        33,
+        23,
+        1310,
+        1134
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/08_工具透明素材/FX_PETAL_v02.png",
+      "sha256": "9b05c55e32a41d61c9f134e9004b59b8e0ccd18948e58bb67af6523ca7cb00ce",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1012180,
+      "integrationAliases": [
+        "FX_PETAL_v02"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UNCLE_CARE_READY",
+      "sceneId": "SHARED",
+      "stateId": "UNCLE_CARE_READY_v01",
+      "relativePath": "素材/UNCLE_CARE_READY_v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        31,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/09_照护局部状态/UNCLE_CARE_READY_v01.png",
+      "sha256": "37193d8c38226e4e5cca0dfdc3c661353ce69792542d4750910db1dc7e699b4e",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 535206,
+      "integrationAliases": [
+        "UNCLE_CARE_READY_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UNCLE_CARE_PRESSURE",
+      "sceneId": "SHARED",
+      "stateId": "UNCLE_CARE_PRESSURE_v01",
+      "relativePath": "素材/UNCLE_CARE_PRESSURE_v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        39,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/09_照护局部状态/UNCLE_CARE_PRESSURE_v01.png",
+      "sha256": "384136cce3d9d67c6e73d7614788f03ae2594bb8cc4b998af62461a352017862",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 544254,
+      "integrationAliases": [
+        "UNCLE_CARE_PRESSURE_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UNCLE_CARE_COVERED",
+      "sceneId": "SHARED",
+      "stateId": "UNCLE_CARE_COVERED_v01",
+      "relativePath": "素材/UNCLE_CARE_COVERED_v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        37,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/09_照护局部状态/UNCLE_CARE_COVERED_v01.png",
+      "sha256": "66c382c8edc342b6b207f5c8d887440be91c9ce7a0075ab3d3b1cb28705c0258",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 542170,
+      "integrationAliases": [
+        "UNCLE_CARE_COVERED_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BENCH_SEATED",
+      "sceneId": "SHARED",
+      "stateId": "BENCH_SEATED_v01",
+      "relativePath": "素材/BENCH_SEATED_v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        9,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/10_身体动作/BENCH_SEATED_v01.png",
+      "sha256": "403b2ef99bd7ebd9e670e737bb4f860ad44c76c035e441637689152bc1f2cd8b",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 876278,
+      "integrationAliases": [
+        "BENCH_SEATED_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_HERO_DIALOGUE",
+      "sceneId": "SHARED",
+      "stateId": "CHAR_HERO_DIALOGUE_v03_review",
+      "relativePath": "素材/CHAR_HERO_DIALOGUE_v04_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        12,
+        1006,
+        1536
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/CHAR_HERO_DIALOGUE_v04_candidate.png",
+      "sha256": "6adc14f1774f8c05b829ece6b4e6a1f6e8569d2e4dfc9c1ce2f7db0f4ff4239e",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 627970,
+      "integrationAliases": [
+        "CHAR_HERO_DIALOGUE_v04_candidate",
+        "主角_平静_半身_v02",
+        "主角",
+        "你"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_GRANDMA_NEUTRAL",
+      "sceneId": "S01/S04/S12/S13",
+      "stateId": "外婆_日常_CHAR_GRANDMA_NEUTRAL_v01",
+      "relativePath": "素材/外婆_日常_CHAR_GRANDMA_NEUTRAL_v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        26,
+        1010,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "人物立绘/家庭人物/外婆_日常_CHAR_GRANDMA_NEUTRAL_v01.png",
+      "sha256": "ff3ddf8b7b65c2fa6f9367e240d4f172b05291b6014e68d94fa586f351737cc9",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 667180,
+      "integrationAliases": [
+        "外婆_日常_CHAR_GRANDMA_NEUTRAL_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/dialogue-overlay-routes.log",
+        "east-still-open/tests/formal-game-results.json"
+      ]
+    },
+    {
+      "assetId": "CHAR_MOTHER_NEUTRAL",
+      "sceneId": "S01/S04/S12/S13",
+      "stateId": "妈妈_日常_CHAR_MOTHER_NEUTRAL_v01",
+      "relativePath": "素材/妈妈_日常_CHAR_MOTHER_NEUTRAL_v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        52,
+        1004,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "人物立绘/家庭人物/妈妈_日常_CHAR_MOTHER_NEUTRAL_v01.png",
+      "sha256": "eeac25235951e696095d84fc7a02be80e72b682317bbcf837dceec5d234becdc",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 796148,
+      "integrationAliases": [
+        "妈妈_日常_CHAR_MOTHER_NEUTRAL_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/dialogue-overlay-routes.log",
+        "east-still-open/tests/formal-game-results.json"
+      ]
+    },
+    {
+      "assetId": "CHAR_NEIGHBOR_01_NEUTRAL",
+      "sceneId": "S01/S04/S13",
+      "stateId": "老邻居一_日常_CHAR_NEIGHBOR_01_NEUTRAL_v01",
+      "relativePath": "素材/老邻居一_日常_CHAR_NEIGHBOR_01_NEUTRAL_v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        0,
+        1012,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": false,
+      "gameRuntimeVerified": false,
+      "sourceRelativePath": "人物立绘/家庭人物/老邻居一_日常_CHAR_NEIGHBOR_01_NEUTRAL_v01.png",
+      "sha256": "5e618b1db93c8da847de2621098773b8e315e5ca0efa61f170b36d3a47d6214a",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 666705,
+      "integrationAliases": [
+        "老邻居一_日常_CHAR_NEIGHBOR_01_NEUTRAL_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-12",
+      "runtimeEvidence": []
+    },
+    {
+      "assetId": "CHAR_NEIGHBOR_02_NEUTRAL",
+      "sceneId": "S01/S04/S13",
+      "stateId": "老邻居二_日常_CHAR_NEIGHBOR_02_NEUTRAL_v01",
+      "relativePath": "素材/老邻居二_日常_CHAR_NEIGHBOR_02_NEUTRAL_v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        53,
+        1004,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": false,
+      "gameRuntimeVerified": false,
+      "sourceRelativePath": "人物立绘/家庭人物/老邻居二_日常_CHAR_NEIGHBOR_02_NEUTRAL_v01.png",
+      "sha256": "6553051b9bfc6320080219963919547e0b55499690f992fc0f29d494e1801554",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 770315,
+      "integrationAliases": [
+        "老邻居二_日常_CHAR_NEIGHBOR_02_NEUTRAL_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-12",
+      "runtimeEvidence": []
+    },
+    {
+      "assetId": "CHAR_COUSIN_NEUTRAL",
+      "sceneId": "S01/S04/S12/S13",
+      "stateId": "表哥_日常_CHAR_COUSIN_NEUTRAL_v01",
+      "relativePath": "素材/表哥_日常_CHAR_COUSIN_NEUTRAL_v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        17,
+        996,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "人物立绘/家庭人物/表哥_日常_CHAR_COUSIN_NEUTRAL_v01.png",
+      "sha256": "27ca4ec45d69d6eaee10f2edd141c2b7990062efd8e809199c758d4fa8de6d46",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 772956,
+      "integrationAliases": [
+        "表哥_日常_CHAR_COUSIN_NEUTRAL_v01"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/dialogue-overlay-routes.log",
+        "east-still-open/tests/formal-game-results.json"
+      ]
+    },
+    {
+      "assetId": "CHAR_ELDER_DIALOGUE_NORMAL",
+      "sceneId": "S02",
+      "stateId": "CHAR_ELDER_DIALOGUE_NORMAL_v02_review",
+      "relativePath": "素材/CHAR_ELDER_DIALOGUE_NORMAL_v02_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        51,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/CHAR_ELDER_DIALOGUE_NORMAL_v02_review.png",
+      "sha256": "e08f51f9aa3c6f7652f24d6e859be0af8a0f3b2f6e915e60ec3cb016231c1526",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 503304,
+      "integrationAliases": [
+        "CHAR_ELDER_DIALOGUE_NORMAL_v02_review",
+        "东区老人_正常交流_ELDER_LUCID"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_ELDER_DIALOGUE_CONFUSED",
+      "sceneId": "S02",
+      "stateId": "CHAR_ELDER_DIALOGUE_CONFUSED_v02_review",
+      "relativePath": "素材/CHAR_ELDER_DIALOGUE_CONFUSED_v03_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        19,
+        26,
+        1011,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/13_美术补齐与终检/CHAR_ELDER_DIALOGUE_CONFUSED_v03_review.png",
+      "sha256": "a67e76ccb7c0d06696a8754e6106b72841bfd9a3197f4a4fa1214ed2742c4d93",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 566529,
+      "integrationAliases": [
+        "CHAR_ELDER_DIALOGUE_CONFUSED_v03_review",
+        "东区老人_遗忘疑惑_ELDER_CONFUSED"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UNCLE_UNSTEADY",
+      "sceneId": "SHARED",
+      "stateId": "舅舅_协调困难_UNCLE_UNSTEADY",
+      "relativePath": "素材/舅舅_协调困难_UNCLE_UNSTEADY.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        44,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": false,
+      "gameRuntimeVerified": false,
+      "sourceRelativePath": "人物立绘/近景状态立绘/舅舅_协调困难_UNCLE_UNSTEADY.png",
+      "sha256": "05c13e64b8aa38017c83e800fe551430e57f9bff240d1b3330fa5be40102a6db",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 488515,
+      "integrationAliases": [
+        "舅舅_协调困难_UNCLE_UNSTEADY"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-12",
+      "runtimeEvidence": []
+    },
+    {
+      "assetId": "UNCLE_INJURED",
+      "sceneId": "SHARED",
+      "stateId": "舅舅_受伤紧张_UNCLE_INJURED",
+      "relativePath": "素材/舅舅_受伤紧张_UNCLE_INJURED.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        31,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "人物立绘/近景状态立绘/舅舅_受伤紧张_UNCLE_INJURED.png",
+      "sha256": "37193d8c38226e4e5cca0dfdc3c661353ce69792542d4750910db1dc7e699b4e",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 535206,
+      "integrationAliases": [
+        "舅舅_受伤紧张_UNCLE_INJURED"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UNCLE_NORMAL",
+      "sceneId": "S01/S02",
+      "stateId": "舅舅_正常交流_UNCLE_NORMAL",
+      "relativePath": "素材/舅舅_正常交流_UNCLE_NORMAL.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        9,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "人物立绘/近景状态立绘/舅舅_正常交流_UNCLE_NORMAL.png",
+      "sha256": "3a4201aa178599d9c080fcc85db9d41212d5b09ee43f254efbc62d71b527f38e",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 495814,
+      "integrationAliases": [
+        "舅舅_正常交流_UNCLE_NORMAL"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UNCLE_CONFUSED",
+      "sceneId": "SHARED",
+      "stateId": "舅舅_重复提问_UNCLE_CONFUSED",
+      "relativePath": "素材/舅舅_重复提问_UNCLE_CONFUSED.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        31,
+        19,
+        1024,
+        1536
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "人物立绘/近景状态立绘/舅舅_重复提问_UNCLE_CONFUSED.png",
+      "sha256": "6f78c3a55934e9c9b19e0e5fd299a01d4aaee47a9a6daa9a6f06ea5c8a132314",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 550238,
+      "integrationAliases": [
+        "舅舅_重复提问_UNCLE_CONFUSED"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BENCH_UNSTEADY",
+      "sceneId": "SHARED",
+      "stateId": "长椅路人_协调困难_BENCH_UNSTEADY",
+      "relativePath": "素材/长椅路人_协调困难_BENCH_UNSTEADY.png",
+      "dimensions": [
+        1226,
+        1283
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        0,
+        1226,
+        1283
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": false,
+      "gameRuntimeVerified": false,
+      "sourceRelativePath": "人物立绘/近景状态立绘/长椅路人_协调困难_BENCH_UNSTEADY.png",
+      "sha256": "7efc2eaf96a3211198049036a7a4cef941d69686a896ef8bd94e3c2083776e7d",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 577977,
+      "integrationAliases": [
+        "长椅路人_协调困难_BENCH_UNSTEADY"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-12",
+      "runtimeEvidence": []
+    },
+    {
+      "assetId": "BENCH_CONFUSED",
+      "sceneId": "SHARED",
+      "stateId": "长椅路人_遗忘疑惑_BENCH_CONFUSED",
+      "relativePath": "素材/长椅路人_遗忘疑惑_BENCH_CONFUSED.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        18,
+        22,
+        1145,
+        1374
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "人物立绘/近景状态立绘/长椅路人_遗忘疑惑_BENCH_CONFUSED.png",
+      "sha256": "4e63e20b41d1eb455eed5816cb8e8f37ad56b250a71690aee406f6e1e45212ff",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 524602,
+      "integrationAliases": [
+        "长椅路人_遗忘疑惑_BENCH_CONFUSED"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_OLDHOUSE_STRUCTURE",
+      "sceneId": "S02/S11B",
+      "stateId": "BG_OLDHOUSE_STRUCTURE_v06_review",
+      "relativePath": "素材/BG_OLDHOUSE_STRUCTURE_v06_selected.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/12_Codex接入批次/BG_OLDHOUSE_STRUCTURE_v06_review.png",
+      "sha256": "181562393b4c4f6116e26ee216de33be3ed478de98d37c976693c4abfca03f10",
+      "integrationAliases": [
+        "BG_OLDHOUSE_STRUCTURE_v06_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_OLDHOUSE_RECEPTION",
+      "sceneId": "S02",
+      "stateId": "BG_OLDHOUSE_RECEPTION_v06_review",
+      "relativePath": "素材/BG_OLDHOUSE_RECEPTION_v06_selected.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "alphaBounds": null,
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/12_Codex接入批次/BG_OLDHOUSE_RECEPTION_v06_review.png",
+      "sha256": "e132508d53e6015d7d516005d2b7aa1337744008974bf8db2c6187ed406a2140",
+      "integrationAliases": [
+        "BG_OLDHOUSE_RECEPTION_v06_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "THREAT_ANONYMOUS",
+      "sceneId": "SHARED",
+      "stateId": "THREAT_ANONYMOUS_v01_review",
+      "relativePath": "素材/THREAT_ANONYMOUS_v01_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        23,
+        952,
+        1504
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/12_Codex接入批次/THREAT_ANONYMOUS_v01_review.png",
+      "sha256": "6e7f00a960802e21196bde89e4b9b94e5561136abd23fdecd31d1ba7d26649b8",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1089348,
+      "integrationAliases": [
+        "THREAT_ANONYMOUS_v01_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "THREAT_TURN",
+      "sceneId": "SHARED",
+      "stateId": "THREAT_TURN_v02_review",
+      "relativePath": "素材/THREAT_TURN_v02_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        39,
+        986,
+        1496
+      ],
+      "reuseGroup": "已有复用",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/12_Codex接入批次/THREAT_TURN_v02_review.png",
+      "sha256": "127a94cce4a434cda97d8c3367f8b8e190371f171a1c2042ec58ff367fc27023",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1111697,
+      "integrationAliases": [
+        "THREAT_TURN_v02_review"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "CHAR_SHELTER_TURN",
+      "sceneId": "S08",
+      "stateId": "主动观察转向",
+      "relativePath": "素材/CHAR_SHELTER_TURN_v02_selected.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "alphaBounds": [
+        0,
+        19,
+        1000,
+        1474
+      ],
+      "reuseGroup": "修正替换",
+      "cultureReference": "家庭为用户确认回族、古尔邦节；采用馓子、油香、牛羊肉；无新增族饰。其他素材沿用原身份。",
+      "status": "selected_static_art",
+      "staticReview": "视觉复核＋指定尺寸合成；必须使用配准配置",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "场景的图片/14_复审后修正/CHAR_SHELTER_TURN_v02_candidate.png",
+      "sha256": "a85d6364a692e0dba3f9baa95202378216f72fa1e932aa61781cdd123d4edc6f",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1058821,
+      "integrationAliases": [
+        "CHAR_SHELTER_TURN_v02_candidate"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_BACK",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/back.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "原生可缩放资源补齐",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "995f1f390112d2343acc3afd9f894e8ce4787ed48c8a1c267c600ee79112654b",
+      "integrationAliases": [
+        "UI_BACK"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_BINDING_HOLES",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/binding-holes.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "原生可缩放资源补齐",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "b84078645f06ec5bb75ce7d94e6eab2e4e7642a69fa77747a0d58963841957f6",
+      "integrationAliases": [
+        "UI_BINDING_HOLES"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_CLOSE",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/close.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "已有网页复用",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "07ad12d7e001ab1948887af1d7ba82f59eaa5036e6beb0a881d8b5c550533c87",
+      "integrationAliases": [
+        "UI_CLOSE"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_COMPARE",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/compare.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "原生可缩放资源补齐",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "2e0bd63b0a4cb7c847bab766b02eb3d2c1942743bb7a33db33a26d261e2423ca",
+      "integrationAliases": [
+        "UI_COMPARE"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_CONTINUE",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/continue.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "原生可缩放资源补齐",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "f9d1c5265ad64a90bc132a00c2667fa81a427d509dbbd610a1f0dca59d699e44",
+      "integrationAliases": [
+        "UI_CONTINUE"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_EVIDENCE",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/evidence.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "已有网页复用",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "a5090776dbf2a0219c39d3216667855e920ea73cb0a4a0a203c40c87d269e964",
+      "integrationAliases": [
+        "UI_EVIDENCE"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_HINT",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/hint.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "已有网页复用",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "12d6525843dbbe7f730be18eed2a59d53b928b39ec94cb20b17c8b7297598e29",
+      "integrationAliases": [
+        "UI_HINT"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_PAPER_GRAIN",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/paper-grain.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "已有网页复用",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "2221059d20d25fc5ce463967dfc726a3b4fe06e92f37a7964c44fec81d38c722",
+      "integrationAliases": [
+        "UI_PAPER_GRAIN"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_PHONE",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/phone.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "已有网页复用",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "5b71dd1297125fd428d72eb38593b4e35bad7181bcfb05e1ba508eb5c1a10d20",
+      "integrationAliases": [
+        "UI_PHONE"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_REVIEW",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/review.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "原生可缩放资源补齐",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "ec54e4bcc1731944e908f5d3e8a95f862e2eee5d5db3c74cb65703fecdeaf154",
+      "integrationAliases": [
+        "UI_REVIEW"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_TAPE",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/tape.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "原生可缩放资源补齐",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "64918bd0657f930b7e4f220208d33a5baf89933d80d29581528f3a37d0b7fe09",
+      "integrationAliases": [
+        "UI_TAPE"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "UI_TORN_PAPER",
+      "sceneId": "GLOBAL",
+      "stateId": "界面静态装饰／入口",
+      "relativePath": "界面素材/torn-paper.svg",
+      "dimensions": null,
+      "transparent": true,
+      "reuseGroup": "原生可缩放资源补齐",
+      "cultureReference": "无民族符号",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "785cb9ba02502f9117055c0c52441550b5042c479da42f74bc78bfe5a169f6c5",
+      "integrationAliases": [
+        "UI_TORN_PAPER"
+      ],
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "FX_CONTACT",
+      "sceneId": "S11B",
+      "stateId": "chair/bottle/exit分别条件显示",
+      "relativePath": "接触影.svg",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": true,
+      "reuseGroup": "按实际修正支点重做原生矢量",
+      "cultureReference": "不涉及文化",
+      "status": "selected_static_art",
+      "releaseApproved": true,
+      "gameRuntimeVerified": true,
+      "sha256": "d0c952a14169ebdf47eaa58456d8fb14cafa351a244da231c6ad213a5ff5312d",
+      "browserRenderingVerified": true,
+      "runtimeReviewDate": "2026-10-13",
+      "runtimeEvidence": [
+        "east-still-open/tests/formal-game-results.json",
+        "east-still-open/tests/formal-no08-results.json",
+        "east-still-open/tests/formal-layout-final-results.json",
+        "east-still-open/tests/formal-branch-results.json",
+        "east-still-open/tests/formal-ui-results.json",
+        "east-still-open/tests/dialogue-overlay-routes.log"
+      ]
+    },
+    {
+      "assetId": "BG_HOME_DIALOGUE_EMPTY",
+      "sceneId": "S01/S04",
+      "stateId": "人物说话时的无人物实物底图",
+      "relativePath": "素材/BG_HOME_DIALOGUE_EMPTY_v01_foodlocked.svg",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "status": "user_approved_playable_review_runtime_verified",
+      "staticReview": "只去背景五人，正式食品局部原样复用；完整构图；无新增文化元素",
+      "releaseApproved": false,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "制作来源/对白去背景人物_2026-10-13/family-dialogue-empty-source.png",
+      "sha256": "6c05c19cf950bf49cc9990d13aa7d6ecd6fd89bb174cd44d26d63a1c577ad471",
+      "integrationAliases": [],
+      "userApproval": "2026-10-13 用户明确回复：允许接入这张底图。",
+      "cultureReference": "沿用正式家庭图，不改变食品、人物身份或族饰。",
+      "browserRenderingVerified": true,
+      "runtimeReview": "2026-10-13：正常起点开场及家庭商议，1366×768/1920×1080；默认及放大文字、透明轮廓完整、当前说话者切换、旁白清除、对白底图无背景人物均通过。390×844家庭范围补查通过。最终文化审核和离开后布袋连续性仍待完成。"
+    },
+    {
+      "assetId": "BG_HOME_DIALOGUE_AFTER_HANDOFF",
+      "sceneId": "S03/S04",
+      "stateId": "舅舅离开后：无人、桌上无布袋",
+      "relativePath": "素材/BG_HOME_DIALOGUE_AFTER_HANDOFF_v01_foodlocked.svg",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "transparent": false,
+      "status": "static_and_targeted_runtime_verified",
+      "staticReview": "以已批准无人底图移除唯一布袋与所属阴影，补齐既有椅背/桌布；正式食品局部原样复用。无新增人物、食品或民族细节。",
+      "releaseApproved": false,
+      "gameRuntimeVerified": true,
+      "sourceRelativePath": "制作来源/布袋离开状态_2026-10-14/BG_HOME_DIALOGUE_AFTER_HANDOFF_v01_source.png",
+      "sha256": "f9d6e290833595819a9ee3bc7e7a3cab3f0719221f292cfa14826018a96194a4",
+      "integrationAliases": [],
+      "cultureReference": "沿用用户已确认回族、古尔邦节及原正式食品，无新增文化元素。",
+      "usage": "S03手机/S04留守使用本图；开场布袋仍在时使用BG_HOME_DIALOGUE_EMPTY。帮提袋反馈已取走布袋时也使用本图。",
+      "browserRenderingVerified": true,
+      "runtimeReview": "2026-10-14：14次正常开场推进；1366×768/1920×1080默认及大字三行动；390×844默认及大字提袋行动补查；手机、家庭留守和刷新检查通过。不是全游戏终验。"
+    }
+  ],
+  "uiAssetCount": 12,
+  "contactAssetCount": 1,
+  "offlineVectorRenderingVerified": true,
+  "limitations": [
+    "本阶段必要局部动画及动作衔接已实现并运行验证；人物原图仍是静态关键帧，尚未安排真人/文化/跨平台终验。",
+    "S01/S04无人无布袋状态已接入；开场保留带袋状态。本次重新运行通过，不等于整部游戏静态/动画最终通过。",
+    "S08攻击事件已呈现、S11A新伤原句仅保留一次；本次核对通过，最终审核仍未通过。",
+    "操作与排版的自动化验收不等于真实体验、文化或全部浏览器终验。",
+    "5件备用/独立排版资源未实际剧情使用；整包releaseApproved仍为false。"
+  ],
+  "runtimeAcceptance": {
+    "date": "2026-10-13",
+    "requiredGameFlowVerified": true,
+    "assetRuntimeApprovedCount": 76,
+    "unusedOrSupersededCount": 5,
+    "aggregateApprovalReason": "76件沿用既有逐件运行批准；新增家庭底图仅可玩审核版运行验证，最终发布审批未通过；5件备用不冒称实际剧情使用。",
+    "report": "静态画面与既有互动_验收报告_2026-10-13.md",
+    "animationScope": "excluded",
+    "desktopSizes": [
+      [
+        1366,
+        768
+      ],
+      [
+        1920,
+        1080
+      ]
+    ],
+    "normalStartEndingRuns": 8,
+    "additionalNo08Runs": 2,
+    "careLayoutRepeatRuns": 2,
+    "familyBenchRuns": 6,
+    "familyDialogueUpdate": "已明确批准并接入BG_HOME_DIALOGUE_EMPTY；全文尺寸与人物轮廓实际检查。原稿未有邻居独立台词，不新增剧情。",
+    "communicationOwnershipRuns": 2,
+    "reviewOnlyRuntimeVerifiedCount": 1,
+    "objectIntegration": "既有actions关联可见对象，选择对象不获证据；阅读与行动分开；原规则与源码逐字比对未改变。",
+    "objectActionNormalStartRuns": 8,
+    "renderedStateChecks": 100,
+    "narrativeCorrections": {
+      "date": "2026-10-14",
+      "normalStartRouteARuns": 2,
+      "changes": "原RPD已定攻击事件补回；去除程序重复对白；规则未变",
+      "report": "三项缺口复核与修正_2026-10-14.md"
+    }
+  },
+  "latestAddendum": "缺口收尾报告_2026-10-14.md",
+  "handoffReconciliation": {
+    "date": "2026-10-14",
+    "matchedAssets": 83,
+    "resourceCopies": 0,
+    "gameBehaviorChanged": false,
+    "report": "deliverables/补齐交接核对与本次验收_2026-10-14.md",
+    "fullRunId": "2026-10-14T06-32-07-346Z-d8fa3bb5",
+    "releaseApproved": false
+  },
+  "animationAcceptance": {
+    "date": "2026-10-14",
+    "scope": "required_local_object_motion_and_keyframe_transitions",
+    "report": "deliverables/正式动画清单与验收_2026-10-14.md",
+    "normalFullRun": "2026-10-14T07-41-20-247Z-810289d2",
+    "additionalNormalStartModeRuns": 6,
+    "interruptionChecks": 14,
+    "assetsUnchanged": true,
+    "releaseApproved": false
+  }
+}

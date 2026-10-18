@@ -1,0 +1,623 @@
+{
+  "第三项_长椅_坐姿": {
+    "background": "素材/BG_BENCH_EMPTY_v02.png",
+    "layers": [
+      {
+        "file": "素材/BENCH_SEATED_v01.png",
+        "scale": 0.26,
+        "xy": [
+          1080,
+          374
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        1138,
+        722
+      ],
+      [
+        1268,
+        750
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game"
+  },
+  "第三项_长椅_起身": {
+    "opaqueSceneKeyframe": "素材/SCENE_BENCH_RISE_v01_selected.png",
+    "scope": "不透明关键帧；不当透明立绘；不当完整动画",
+    "sequence": [
+      "第三项_长椅_坐姿",
+      "第三项_长椅_起身",
+      "第三项_长椅_重新落座过渡",
+      "第三项_长椅_坐姿"
+    ]
+  },
+  "第三项_长椅_重新落座过渡": {
+    "background": "素材/BG_BENCH_EMPTY_v02.png",
+    "layers": [
+      {
+        "file": "素材/BENCH_RESEAT_TRANSITION_v01_selected.png",
+        "scale": 0.26,
+        "xy": [
+          1080,
+          383
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        1145,
+        734,
+        14,
+        2
+      ],
+      [
+        1249,
+        763,
+        14,
+        2
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game",
+    "state": "失衡后触座关键帧，不是空中下降过渡"
+  },
+  "第三项_舅舅扶柱": {
+    "background": "素材/BG_SHED_EMPTY_v02.png",
+    "layers": [
+      {
+        "file": "素材/CHAR_UNCLE_PILLAR_SUPPORT_v01_selected.png",
+        "scale": 0.23,
+        "xy": [
+          324,
+          185
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        450,
+        517,
+        12,
+        2
+      ],
+      [
+        531,
+        517,
+        12,
+        2
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game"
+  },
+  "第三项_舅舅照护_READY": {
+    "background": "素材/BG_SHED_EMPTY_v02.png",
+    "layers": [],
+    "contactShadows": [],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game",
+    "closeupInset": {
+      "file": "素材/UNCLE_CARE_READY_v01.png",
+      "panel": [
+        65,
+        90,
+        490,
+        570
+      ],
+      "localScale": 0.36,
+      "localXY": [
+        60,
+        5
+      ],
+      "mustFrameAsCloseup": true
+    }
+  },
+  "第三项_舅舅照护_PRESSURE": {
+    "background": "素材/BG_SHED_EMPTY_v02.png",
+    "layers": [],
+    "contactShadows": [],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game",
+    "closeupInset": {
+      "file": "素材/UNCLE_CARE_PRESSURE_v01.png",
+      "panel": [
+        65,
+        90,
+        490,
+        570
+      ],
+      "localScale": 0.36,
+      "localXY": [
+        60,
+        5
+      ],
+      "mustFrameAsCloseup": true
+    }
+  },
+  "第三项_舅舅照护_COVERED": {
+    "background": "素材/BG_SHED_EMPTY_v02.png",
+    "layers": [],
+    "contactShadows": [],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game",
+    "closeupInset": {
+      "file": "素材/UNCLE_CARE_COVERED_v01.png",
+      "panel": [
+        65,
+        90,
+        490,
+        570
+      ],
+      "localScale": 0.36,
+      "localXY": [
+        60,
+        5
+      ],
+      "mustFrameAsCloseup": true
+    }
+  },
+  "第三项_家庭束袋": {
+    "opaqueSceneKeyframe": "素材/BG_HOME_INHABITED_v03_foodlocked.svg",
+    "scope": "用户本轮排除动画；静态家庭动作，全帧不涉及老人屋持久层",
+    "doNotOverlayOldCharacterSprites": true
+  },
+  "第三项_家庭舅舅出门": {
+    "opaqueSceneKeyframe": "素材/SCENE_HOME_UNCLE_DEPART_v02_foodlocked.svg",
+    "scope": "用户本轮排除动画；静态家庭动作，全帧不涉及老人屋持久层",
+    "doNotOverlayOldCharacterSprites": true
+  },
+  "第三项_家庭帮提袋": {
+    "opaqueSceneKeyframe": "素材/SCENE_HOME_CARRY_BAG_v02_foodlocked.svg",
+    "scope": "用户本轮排除动画；静态家庭动作，全帧不涉及老人屋持久层",
+    "doNotOverlayOldCharacterSprites": true
+  },
+  "第三项_家庭扶门": {
+    "opaqueSceneKeyframe": "素材/SCENE_HOME_HOLD_DOOR_v02_foodlocked.svg",
+    "scope": "用户本轮排除动画；静态家庭动作，全帧不涉及老人屋持久层",
+    "doNotOverlayOldCharacterSprites": true
+  },
+  "第三项_老人接待": {
+    "background": "素材/BG_OLDHOUSE_RECEPTION_v06_selected.png",
+    "layers": [
+      {
+        "file": "素材/CHAR_ELDER_WELCOME_v03_selected.png",
+        "scale": 0.34,
+        "xy": [
+          200,
+          190
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        284,
+        700,
+        14,
+        2
+      ],
+      [
+        394,
+        669,
+        14,
+        2
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game",
+    "registrationBasis": "以实际门高、桌沿手掌与脚底接触校准，不使用同宽贴图"
+  },
+  "第三项_老人异常": {
+    "background": "素材/BG_OLDHOUSE_RECEPTION_v06_selected.png",
+    "layers": [
+      {
+        "file": "素材/CHAR_ELDER_UNSTEADY_v02_selected.png",
+        "scale": 0.3,
+        "xy": [
+          365,
+          258
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        464,
+        705,
+        14,
+        2
+      ],
+      [
+        554,
+        684,
+        14,
+        2
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game",
+    "registrationBasis": "以实际门高、桌沿手掌与脚底接触校准，不使用同宽贴图"
+  },
+  "第三项_老人冲突动作": {
+    "background": "素材/BG_OLDHOUSE_STRUCTURE_v06_selected.png",
+    "layers": [
+      {
+        "file": "素材/ACTION_ELDER_UNCLE_CONFLICT_v07_selected.png",
+        "scale": 0.5,
+        "xy": [
+          80,
+          250
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        217,
+        744,
+        23,
+        3
+      ],
+      [
+        375,
+        739,
+        23,
+        3
+      ],
+      [
+        550,
+        743,
+        23,
+        3
+      ],
+      [
+        705,
+        740,
+        23,
+        3
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game",
+    "registrationBasis": "以实际门高、桌沿手掌与脚底接触校准，不使用同宽贴图"
+  },
+  "第三项_安置点_普通": {
+    "background": "素材/BG_SHELTER_IN_BASE_v03_selected.png",
+    "layers": [
+      {
+        "file": "素材/CHAR_SHELTER_ORDINARY_v01_selected.png",
+        "scale": 0.22,
+        "xy": [
+          400,
+          360
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        492,
+        680,
+        16,
+        3
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game"
+  },
+  "第三项_安置点_疑惑": {
+    "background": "素材/BG_SHELTER_IN_BASE_v03_selected.png",
+    "layers": [
+      {
+        "file": "素材/CHAR_SHELTER_ORDINARY_v01_selected.png",
+        "scale": 0.22,
+        "xy": [
+          400,
+          360
+        ]
+      },
+      {
+        "file": "素材/CHAR_SHELTER_CONFUSED_v01_selected.png",
+        "scale": 0.16,
+        "xy": [
+          930,
+          320
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        492,
+        680,
+        16,
+        3
+      ],
+      [
+        1017,
+        552,
+        9,
+        2
+      ],
+      [
+        1046,
+        555,
+        9,
+        2
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game"
+  },
+  "第三项_安置点_协调不稳": {
+    "background": "素材/BG_SHELTER_IN_BASE_v03_selected.png",
+    "layers": [
+      {
+        "file": "素材/CHAR_SHELTER_ORDINARY_v01_selected.png",
+        "scale": 0.22,
+        "xy": [
+          400,
+          360
+        ]
+      },
+      {
+        "file": "素材/CHAR_SHELTER_CONFUSED_v01_selected.png",
+        "scale": 0.16,
+        "xy": [
+          930,
+          320
+        ]
+      },
+      {
+        "file": "素材/CHAR_SHELTER_UNSTEADY_v02_selected.png",
+        "scale": 0.3,
+        "xy": [
+          595,
+          314
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        492,
+        680,
+        16,
+        3
+      ],
+      [
+        1017,
+        552,
+        9,
+        2
+      ],
+      [
+        1046,
+        555,
+        9,
+        2
+      ],
+      [
+        789,
+        578,
+        10,
+        2
+      ],
+      [
+        843,
+        569,
+        11,
+        2
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game"
+  },
+  "第三项_安置点_进一步失控": {
+    "background": "素材/BG_SHELTER_IN_BASE_v03_selected.png",
+    "layers": [
+      {
+        "file": "素材/CHAR_SHELTER_ORDINARY_v01_selected.png",
+        "scale": 0.22,
+        "xy": [
+          400,
+          360
+        ]
+      },
+      {
+        "file": "素材/CHAR_SHELTER_CONFUSED_v01_selected.png",
+        "scale": 0.16,
+        "xy": [
+          930,
+          320
+        ]
+      },
+      {
+        "file": "素材/CHAR_SHELTER_UNSTEADY_v02_selected.png",
+        "scale": 0.3,
+        "xy": [
+          595,
+          314
+        ]
+      },
+      {
+        "file": "素材/CHAR_SHELTER_UNCONTROLLED_BACK_v03_selected.png",
+        "scale": 0.18,
+        "xy": [
+          1120,
+          320
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        492,
+        680,
+        16,
+        3
+      ],
+      [
+        1017,
+        552,
+        9,
+        2
+      ],
+      [
+        1046,
+        555,
+        9,
+        2
+      ],
+      [
+        789,
+        578,
+        10,
+        2
+      ],
+      [
+        843,
+        569,
+        11,
+        2
+      ],
+      [
+        1189,
+        585,
+        12,
+        2
+      ],
+      [
+        1248,
+        583,
+        12,
+        2
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "static composition, not integrated game"
+  },
+  "第三项_家庭检查袋子": {
+    "background": "素材/BG_HOME_INHABITED_v03_foodlocked.svg",
+    "closeupInset": {
+      "file": "素材/CHAR_HERO_CHECK_BAG_v03_selected.png",
+      "panel": [
+        75,
+        100,
+        450,
+        520
+      ],
+      "localScale": 0.32,
+      "localXY": [
+        60,
+        5
+      ],
+      "mustFrameAsCloseup": true
+    },
+    "scope": "三个家庭选择之一；不强制三动作顺序",
+    "note": "带框近景代表同一袋子，非场景中第二只袋。"
+  },
+  "第三项_安置点_转向观察": {
+    "background": "素材/BG_SHELTER_IN_BASE_v03_selected.png",
+    "layers": [
+      {
+        "file": "素材/CHAR_SHELTER_ORDINARY_v01_selected.png",
+        "scale": 0.22,
+        "xy": [
+          400,
+          360
+        ]
+      },
+      {
+        "file": "素材/CHAR_SHELTER_CONFUSED_v01_selected.png",
+        "scale": 0.16,
+        "xy": [
+          930,
+          320
+        ]
+      },
+      {
+        "file": "素材/CHAR_SHELTER_UNSTEADY_v02_selected.png",
+        "scale": 0.3,
+        "xy": [
+          595,
+          314
+        ]
+      },
+      {
+        "file": "素材/CHAR_SHELTER_TURN_v02_selected.png",
+        "scale": 0.18,
+        "xy": [
+          1120,
+          320
+        ]
+      }
+    ],
+    "contactShadows": [
+      [
+        492,
+        680,
+        16,
+        3
+      ],
+      [
+        1017,
+        552,
+        9,
+        2
+      ],
+      [
+        1046,
+        555,
+        9,
+        2
+      ],
+      [
+        789,
+        578,
+        10,
+        2
+      ],
+      [
+        843,
+        569,
+        11,
+        2
+      ],
+      [
+        1189,
+        585,
+        12,
+        2
+      ],
+      [
+        1248,
+        583,
+        12,
+        2
+      ]
+    ],
+    "foregroundBaseClipPolygon": null,
+    "scope": "主动观察后的静态转向；不提前获得证据08",
+    "observation": "朝原剧情已存在的入口延伸血迹方向转头；存在其他刺激，非传播途径证明",
+    "noNewInjuredPerson": true
+  },
+  "第三项_登记桌_敷料局部": {
+    "background": "素材/BG_DESK_EMPTY_v02.png",
+    "crop": [
+      150,
+      425,
+      455,
+      515
+    ],
+    "mustFrameAsCloseup": true,
+    "note": "复用原画敷料与克制血迹；记录时间由网页文字绘制。"
+  },
+  "第三项_入口_原有血迹局部": {
+    "background": "素材/BG_SHELTER_OUT_v01.png",
+    "crop": [
+      860,
+      550,
+      1170,
+      850
+    ],
+    "mustFrameAsCloseup": true,
+    "note": "原有血迹；没有新增受伤女性。"
+  }
+}

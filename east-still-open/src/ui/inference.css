@@ -1,0 +1,47 @@
+/* Inference surfaces: text always sits on paper; the board is a frame. */
+.inferenceWorkspace[data-surface=blackboard]{border:8px solid #67513b;outline:2px solid #eee5d3;outline-offset:-10px;padding:16px;gap:12px;}
+.inferenceWorkspace[data-surface=blackboard] .archiveSheet{align-self:stretch;width:auto;max-width:none;margin:14px 28px;min-height:0;flex:1;padding:18px 24px;justify-content:center;border:1px solid #c4b69e;}
+.inferenceWorkspace[data-surface=blackboard] .archiveSheetContent{flex:0 0 auto;min-height:auto;}
+.inferenceWorkspace[data-surface=blackboard] .archiveSourceText{font-size:16px;line-height:1.65;margin:10px 0;}
+.inferenceWorkspace[data-surface=blackboard] .archiveTab{font-size:16px;line-height:1.5;}
+.inferenceWorkspace[data-surface=blackboard] .archiveSelect{font-size:14px;line-height:1.5;margin-top:10px;padding:9px!important;}
+.inferenceWorkspace .inferenceDecision{flex:1;min-height:0;display:flex;flex-direction:column;gap:10px;padding:16px 20px;background:#eee5d3;color:#252d32;border:1px solid #c4b69e;box-shadow:4px 5px 0 #142722;margin:4px 12px;}
+.inferenceWorkspace[data-surface=blackboard] .inferenceDecision :is(.archiveQuestion,.supportSummary,.archivePager span){color:#252d32;}
+.inferenceWorkspace .inferenceDecision .archiveQuestion{font-size:16px;line-height:1.5;}
+.inferenceWorkspace .inferenceDecision .answer{font-size:16px;line-height:1.5;padding:10px 14px;min-height:48px;background:#252d32;color:#eee5d3;border:1px solid #b9ad96;box-shadow:2px 3px 0 #b7a990;}
+.large .inferenceWorkspace[data-surface=blackboard] .archiveSourceText,.large .inferenceWorkspace .inferenceDecision .answer{font-size:18px;}
+.inferenceWorkspace .archiveFeedback{color:#252d32;flex-shrink:0;}
+@media(max-width:700px),(max-height:700px){
+ .inferenceWorkspace[data-surface=blackboard]{padding:10px;gap:8px;}
+ .inferenceWorkspace[data-surface=blackboard] .archiveSheet{margin:8px 4px;padding:12px 16px;}
+ .inferenceWorkspace[data-surface=blackboard] .archiveSourceText{font-size:15px;line-height:1.5;margin:8px 0;}
+ .inferenceWorkspace .inferenceDecision{padding:10px 12px;margin:0;gap:8px;}
+ .inferenceWorkspace .inferenceDecision .answer{font-size:15px;line-height:1.5;}
+ .large .inferenceWorkspace[data-surface=blackboard] .archiveSourceText,.large .inferenceWorkspace .inferenceDecision .answer{font-size:17px;}
+}
+@media(max-height:700px){
+ .inferenceWorkspace[data-surface=blackboard] .archiveSheet{margin:4px;padding:10px 14px;}
+ .inferenceWorkspace[data-surface=blackboard] .archiveTab{font-size:14px;padding-bottom:4px;margin-bottom:4px;}
+ .inferenceWorkspace[data-surface=blackboard] .archiveSelect{font-size:13px;margin-top:4px;padding:5px!important;}
+ .inferenceWorkspace[data-surface=blackboard]>.archivePager{min-height:42px;padding-top:0;}
+ .inferenceWorkspace .archiveHeading{padding-bottom:6px;}
+ .inferenceWorkspace .archiveHeading h2{font-size:18px;}
+ .modal-infer .modalToolbar{padding-bottom:6px;}
+ .modal-infer .close{min-height:36px;padding:5px 12px;}
+}
+.endingHost{height:calc(100dvh - 82px);min-height:0;display:flex;}
+.endingPaged{width:100%;max-width:1200px;min-height:0;padding:18px 24px;display:flex;}
+.endingPaged .endingArchive{width:100%;min-height:0;display:flex;flex-direction:column;gap:12px;padding:20px 24px;}
+.endingHeading{display:flex;align-items:center;gap:16px;flex-wrap:wrap;border-bottom:2px solid #843b35;padding-bottom:8px;}
+.endingPaged .endingHeading h1{font-size:24px;border:0;margin:0;padding:0;}
+.endingHeading>span:last-child{margin-left:auto;font-size:13px;}
+.endingSpread{flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.endingPhoto{background:#252d32;color:#eee5d3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;border:10px solid #d5cab5;box-shadow:3px 4px 0 #a69982;}
+.endingPhoto strong{font-family:var(--title-font);font-size:24px;}.endingPhoto small{font-size:12px;}
+.endingPage{display:flex;flex-direction:column;justify-content:center;padding:20px;background:#f7f1e6;border:1px solid #b1a58e;box-shadow:4px 5px 0 #c5b89f;}
+.endingPage h2{font-size:18px;margin:0 0 12px;color:#843b35;}
+.endingPaged .endingPage p{font-size:17px;line-height:1.7;margin:8px 0;}
+.large .endingPaged .endingPage p{font-size:19px;}
+.endingPaged .endingLinks{display:flex;gap:8px;flex-wrap:wrap;}.endingPaged .endingLinks button{margin:0;min-height:40px;font-size:14px;padding:6px 12px;}
+.reviewStage .endingHost{height:100%;flex:1;min-height:0;}
+@media(max-width:700px){.endingPaged{padding:10px 14px;}.endingPaged .endingArchive{padding:12px;gap:8px;}.endingSpread{grid-template-columns:1fr;}.endingPhoto{display:none;}.endingHeading{gap:6px;}.endingPaged .endingHeading h1{font-size:20px;}.endingPage{padding:14px;}.endingPaged .endingPage p{font-size:15px;}.large .endingPaged .endingPage p{font-size:17px;}.endingPaged .endingLinks button{font-size:12px;padding:5px 8px;min-height:36px;}}

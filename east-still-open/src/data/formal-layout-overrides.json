@@ -1,0 +1,52 @@
+{
+  "reason": "Actual browser composite showed the original route B care inset hid the persistent brace and lever.",
+  "routeBCarePanel": {
+    "source": [
+      75,
+      90,
+      490,
+      570
+    ],
+    "runtime": [
+      475,
+      90,
+      490,
+      570
+    ]
+  },
+  "routeACarePanel": [
+    65,
+    90,
+    490,
+    570
+  ],
+  "toolArtRegionHeight": "73% of scene frame; source world and hit zones uniformly scaled together",
+  "doorChairBottleCoordinates": "unchanged from formal handoff",
+  "familyDialogue": {
+    "date": "2026-10-13",
+    "authority": "User explicitly requested current speaker portraits over family backgrounds and larger dialogue overlay",
+    "portraits": "whole supplied source silhouette fit proportionally to available height; no hard half-body clip; alpha head/hand/side boundaries checked",
+    "readingPaper": "approximately 17–20% of game frame, over the bottom of image",
+    "artPixelsChanged": false,
+    "backgroundFit": "contain, full original composition; no cover crop",
+    "activeBackground": "BG_HOME_DIALOGUE_EMPTY",
+    "backgroundApproval": "2026-10-13 用户明确允许接入这张底图",
+    "backgroundRule": "家庭有当前说话者时使用无背景人物底图；开场旁白和原叙事动作镜头保留对应正式构图。",
+    "artChangeScope": "原81件像素未改；新增1件用户批准的去人物衍生底图，正式食品局部沿用原图。",
+    "verifiedViewports": [
+      [
+        1366,
+        768
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "finalApproval": false
+  }
+}

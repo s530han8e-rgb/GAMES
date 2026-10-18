@@ -1,0 +1,14 @@
+.motionLayer{position:absolute;inset:0;pointer-events:none;z-index:8}
+.throwTrail,.landingRings{position:absolute;inset:0;fill:none;pointer-events:none}
+.throwTrail path{stroke:#eee5d3;stroke-width:4}
+.landingRings ellipse{stroke:#eee5d3;stroke-width:3}
+.contactPulse{position:absolute;width:65px;height:40px;border:3px solid #eee5d3;border-radius:50%;pointer-events:none}
+.motionHud{position:fixed;z-index:80;bottom:16px;right:24px;display:flex;align-items:center;gap:12px;padding:6px 10px;background:#252d32f5;border:1px solid #eee5d3;color:#eee5d3;box-shadow:0 3px 12px #0007;font-size:13px}
+.motionHud button{min-height:44px;padding:6px 16px;font-size:14px}
+.motionHud progress{width:80px;height:5px;accent-color:#eee5d3}
+.motionLayer .artCloseup{box-shadow:5px 7px 0 #252d32b0}
+.reduce .motionHud{display:none}
+@media(max-width:700px){.motionHud{right:8px;bottom:8px;font-size:11px;gap:6px}.motionHud progress{display:none}}
+
+/* The landed asset already encodes its floor orientation; legacy tool rotation must not apply twice. */
+.sourceWorld .registeredLayer.bottleResult{transform:none}

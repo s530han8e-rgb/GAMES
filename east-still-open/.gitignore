@@ -1,0 +1,37 @@
+# Only the maintainable game project belongs in this repository.
+/*
+!/.gitignore
+!/README.md
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+!/index.html
+!/demo-version.json
+!/src/
+!/public/
+!/scripts/
+!/tests/
+!/启动游戏.command
+!/启动试玩.command
+!/启动试玩-Windows.cmd
+!/启动自动检查.command
+!/停止自动检查.command
+!/检查本组场景.command
+!/查看检查结果.command
+
+# Keep test programs; generated reports, logs and screenshots stay local.
+/tests/*
+!/tests/*.mjs
+!/tests/*.test.ts
+
+# Unused source-document export; not required by the game or checks.
+/src/data/script.json
+
+# Local-only files must never be added accidentally.
+**/.DS_Store
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/node_modules/
+**/*.log

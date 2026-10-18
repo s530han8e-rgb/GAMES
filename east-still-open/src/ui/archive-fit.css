@@ -1,0 +1,94 @@
+/* Final archive layout rules: no text/status/action is positioned off its paper. */
+.inferenceWorkspace[data-surface=clipboard] .archiveSheet{padding:16px 20px;justify-content:center;}
+.inferenceWorkspace[data-surface=clipboard] .archiveSheetContent{min-height:auto;flex:0 0 auto;}
+.inferenceWorkspace[data-surface=clipboard] .archiveSourceText{font-size:16px;line-height:1.6;margin:8px 0;}
+.inferenceWorkspace[data-surface=clipboard]>.archivePager{background:#eee5d3;padding:8px 12px;color:#252d32;}
+.archiveWorkspace>.archivePager button{background:#252d32;color:#eee5d3;}
+.archiveWorkspace>.archivePager button:disabled{background:#596165;color:#eee5d3;opacity:.7;}
+.evidenceWorkspace .evidenceGrid.capacity-4{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));}
+.evidenceWorkspace .evidenceGrid.capacity-2{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:1fr;}
+.evidenceWorkspace .evidenceGrid article{display:flex;flex-direction:column;justify-content:flex-start;gap:8px;padding:14px 16px;min-height:0;}
+.evidenceWorkspace .evidenceGrid article:after{display:none;}
+.evidenceWorkspace .evidenceGrid h3{margin:0;font-size:17px;line-height:1.5;flex:0 0 auto;}
+.evidenceWorkspace .evidenceCardTop{flex:0 0 auto;min-height:24px;}
+.evidenceWorkspace .evidenceCardTop small{font-size:13px;color:#454e50;}
+.evidenceCardFooter{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px;flex:0 0 auto;padding-top:8px;border-top:1px solid #b9ab92;}
+.evidenceWorkspace .cardStatus{font-size:13px;line-height:1.5;margin:0;color:#454e50;}
+.evidenceWorkspace .detailLink{margin:0;align-self:auto;min-height:36px;font-size:13px;padding:6px 10px;white-space:nowrap;}
+.large .evidenceWorkspace .evidenceGrid h3{font-size:19px;}
+.evidenceDetailWorkspace{flex:1;min-height:0;display:flex;flex-direction:column;gap:12px;padding-top:10px;}
+.evidenceDetailWorkspace .evidenceDetail{flex:1;min-height:0;margin:4px 8px;padding:20px 24px;display:flex;flex-direction:column;justify-content:flex-start;background:#f7f1e6;color:#252d32;}
+.evidenceDetailWorkspace .detailLabel{flex:0 0 auto;margin:0 0 12px;padding-bottom:10px;}
+.evidenceDetailWorkspace .detailLabel strong{transform:none;font-size:14px;padding:3px 8px;}
+.evidenceDetailWorkspace .evidenceDetail h2{font-size:21px;line-height:1.5;margin:8px 0;max-width:100%;padding-left:0;border:0;}
+.evidenceDetailWorkspace .evidenceDetail p{font-size:17px;line-height:1.65;max-width:100%;margin:10px 0;}
+.evidenceDetailWorkspace .evidenceDetail .sourceLine{margin:10px 0!important;}
+.evidenceDetailWorkspace>button{align-self:flex-start;min-height:40px;padding:6px 12px;}
+.evidenceDetailWorkspace>.archivePager{flex:0 0 auto;}
+.hintWorkspace .archiveSheet{width:100%;max-width:700px;flex:1;min-height:0;padding:16px 20px;justify-content:flex-start;}
+.hintWorkspace .archiveSheetContent{flex:0 0 auto;min-height:auto;gap:10px;}
+.hintWorkspace .hintNoteText{font-size:16px!important;line-height:1.6!important;}
+.large .hintWorkspace .hintNoteText{font-size:18px!important;}
+.vocabWorkspace .archiveSheet{margin:8px;padding:18px 22px;justify-content:center;}
+.vocabWorkspace .archiveSheetContent{min-height:auto;flex:0 0 auto;}
+.vocabWorkspace .vocabExpression{font-family:var(--body-font);font-size:20px!important;line-height:1.6!important;overflow-wrap:break-word;}
+.large .vocabWorkspace .vocabExpression{font-size:22px!important;}
+.vocabWorkspace>.archivePager{color:#eee5d3;}
+.communicationHost{height:calc(100dvh - 82px);min-height:0;display:flex;}
+.communicationScene{flex:1;min-height:0;position:relative;display:flex;justify-content:center;padding:16px;isolation:isolate;}
+.communicationBackdrop{position:absolute;inset:12px;background:#313b3d url('/art/formal/界面素材/paper-grain.svg');border:8px solid #796952;z-index:-1;overflow:hidden;}
+.communicationBackdrop>span{position:absolute;left:20px;top:18px;color:#eee5d3;font-family:var(--title-font);border:1px solid #eee5d3;padding:6px 12px;}
+.communicationBackdrop i{position:absolute;width:180px;height:260px;left:8%;top:35%;background:#c7baa0;transform:rotate(-8deg);box-shadow:6px 5px 0 #132024;}.communicationBackdrop i+i{left:auto;right:8%;top:28%;transform:rotate(10deg);}
+.communicationPhone{width:min(460px,100%);height:100%;max-height:100%;display:flex;flex-direction:column;margin:0;border-width:7px;}
+.communicationPhone .phoneScreen{flex:1;min-height:0;display:flex;flex-direction:column;padding:16px;gap:12px;}
+.communicationContact{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #b3a58f;padding-bottom:10px;color:#252d32;}
+.communicationContact span{font-size:20px;font-weight:600;}.communicationContact small{font-size:12px;}
+.communicationMessage{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:8px;}
+.communicationMessage>small{color:#5d625f;}.communicationMessage.outgoing>small{text-align:right;}
+.communicationBubble{position:relative;background:#f8f3e8;border:1px solid #b4a78f;box-shadow:3px 4px 0 #d0c3ac;padding:16px;color:#252d32;}
+.communicationMessage.outgoing .communicationBubble{background:#dce3d9;}
+.communicationBubble p{font-size:17px;line-height:1.65;margin:0;}
+.large .communicationBubble p{font-size:19px;}
+.communicationControls{flex:0 0 auto;display:flex;flex-direction:column;gap:8px;}.communicationControls .archivePager button{font-size:13px;padding:5px 10px;min-height:36px;}.communicationControls>button{min-height:38px;}
+.reviewStage .communicationHost{height:100%;flex:1;min-height:0;}
+@media(max-width:700px),(max-height:700px){
+ .evidenceWorkspace .evidenceGrid{gap:12px;padding:4px;}.evidenceWorkspace .evidenceGrid article{padding:10px 12px;gap:5px;}.evidenceWorkspace .evidenceGrid h3{font-size:15px;}.large .evidenceWorkspace .evidenceGrid h3{font-size:17px;}.evidenceWorkspace .cardStatus{font-size:12px;}.evidenceWorkspace .detailLink{font-size:12px;min-height:32px;padding:4px 8px;}
+ .evidenceDetailWorkspace .evidenceDetail{padding:14px 18px;}.evidenceDetailWorkspace .evidenceDetail h2{font-size:18px;}.evidenceDetailWorkspace .evidenceDetail p{font-size:15px;line-height:1.55;}
+ .hintWorkspace .archiveSheet{padding:12px 16px;}.hintWorkspace .hintNoteText{font-size:15px!important;}.large .hintWorkspace .hintNoteText{font-size:17px!important;}
+ .vocabWorkspace .archiveSheet{padding:14px 18px;}.vocabWorkspace .vocabExpression{font-size:18px!important;}.large .vocabWorkspace .vocabExpression{font-size:20px!important;}
+ .communicationScene{padding:8px;}.communicationPhone .phoneScreen{padding:12px;gap:8px;}.communicationBubble{padding:12px;}.communicationBubble p{font-size:15px;}.large .communicationBubble p{font-size:17px;}
+}
+@media(max-width:700px){.evidenceWorkspace .evidenceGrid.capacity-2{grid-template-columns:1fr;grid-template-rows:repeat(2,minmax(0,1fr));}.communicationBackdrop i{display:none;}}
+.evidenceCardFooter .cardStatus{min-width:0;flex:1;overflow-wrap:anywhere;}
+.evidenceCardFooter .detailLink{flex:0 0 auto;}
+
+.evidenceWorkspace .evidenceGrid.capacity-1{grid-template-columns:1fr;grid-template-rows:1fr;}
+.communicationScene{margin:0;width:100%;height:100%;max-width:none;}
+/* Keep phone reading and its actions inside the same viewport, including large text. */
+.veil .modal-phone{height:90dvh;max-height:90dvh;overflow:visible}
+.veil .modal-phone .modalScroll{height:100%;max-height:none;overflow:visible;display:flex;flex-direction:column}
+.veil .modal-phone .modalContent{flex:1;min-height:0;display:flex;flex-direction:column}
+.veil .modal-phone h2{flex:0 0 auto}
+.veil .modal-phone .phoneDevice{flex:1;min-height:0;display:flex;flex-direction:column;padding:10px 12px;margin:8px auto}
+.veil .modal-phone .phoneScreen{flex:1;min-height:0;padding:12px}
+.veil .modal-phone .phoneAppTitle{font-size:18px;padding-bottom:9px}
+.veil .modal-phone .messages{gap:10px;margin-top:12px}
+.veil .modal-phone .messages article{padding:10px 12px}
+.veil .modal-phone .messages p{line-height:1.55;margin:8px 0}
+.veil .modal-phone .phoneHomeBar{flex-shrink:0;margin-top:8px}
+@media(max-height:700px){.hintWorkspace{gap:8px;padding:10px 14px;}.hintWorkspace .archiveHeading{padding-bottom:6px;}.hintWorkspace .archiveHeading h2{font-size:18px;}.hintWorkspace .archiveSheet{padding:10px 14px;}.hintWorkspace .archiveSheetContent{gap:8px;}.hintWorkspace .hintNoteTabs button{min-height:30px;padding:3px 7px;font-size:12px;}.hintWorkspace .hintNoteText{font-size:14px!important;line-height:1.5!important;}.large .hintWorkspace .hintNoteText{font-size:16px!important;}.hintWorkspace .archiveBottom button,.hintWorkspace>.archivePager button{min-height:36px;padding:4px 10px;font-size:13px;}}
+.hintWorkspace .hintNoteTabs button{transition:none;}
+.hintWorkspace .hintNoteTabs button:hover{background:#e1d0a0;color:#252d32;}
+.hintWorkspace .hintNoteTabs button[aria-pressed=true],.hintWorkspace .hintNoteTabs button[aria-pressed=true]:hover{background:#252d32;color:#eee5d3;border-color:#252d32;}
+/* Vocabulary card owns its header, text and footnote in normal document flow. */
+.vocabWorkspace .archiveSheet.vocabularyCard{width:100%;max-width:800px;align-self:center;margin:8px 0 12px;padding:20px 24px;display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:16px;justify-content:normal;border:1px solid #b9ab92;border-top:4px solid #843b35;background:#f7f1e6;box-shadow:4px 5px 0 #cbbb9f,8px 10px 0 #4d3d30;}
+.vocabWorkspace .vocabularyCard:before{display:none;}
+.vocabCardHeader{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #c4b79e;padding-bottom:12px;}
+.vocabIndex{display:inline-block;border:1px solid #843b35;color:#843b35;background:#eee5d3;padding:4px 10px;font-family:var(--title-font);font-size:14px;line-height:1.5;white-space:nowrap;}
+.vocabCardType{font-size:12px;color:#5d625f;}
+.vocabCardBody{min-height:0;display:flex;align-items:center;}
+.vocabWorkspace .vocabularyCard .vocabExpression{margin:0;font-family:var(--body-font);font-size:21px!important;line-height:1.65!important;max-width:100%;color:#252d32;}
+.large .vocabWorkspace .vocabularyCard .vocabExpression{font-size:23px!important;}
+.vocabCardFoot{font-size:13px;line-height:1.5;color:#5d625f;border-top:1px solid #c4b79e;padding-top:10px;}
+@media(max-width:700px),(max-height:700px){.vocabWorkspace .archiveSheet.vocabularyCard{padding:14px 16px;gap:10px;margin:4px 0 8px;}.vocabCardHeader{padding-bottom:8px;}.vocabIndex{font-size:13px;padding:3px 8px;}.vocabWorkspace .vocabularyCard .vocabExpression{font-size:17px!important;line-height:1.55!important;}.large .vocabWorkspace .vocabularyCard .vocabExpression{font-size:19px!important;}.vocabCardFoot{font-size:12px;padding-top:8px;}}
+.vocabWorkspace .vocabularyCard .vocabExpression{padding:0;border:0;}

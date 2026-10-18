@@ -1,0 +1,4 @@
+import{test}from'node:test';import{strict as assert}from'node:assert';import{readFileSync,readdirSync}from'node:fs';
+const lum=(hex:string)=>{const values=hex.match(/[a-f0-9]{2}/gi)!.map(v=>parseInt(v,16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return .2126*values[0]+.7152*values[1]+.0722*values[2]};
+test('text tokens meet contrast requirements',()=>{for(const [f,b]of [['eee5d3','252d32'],['252d32','eee5d3'],['5d625f','eee5d3'],['c8c2b6','252d32'],['c8c2b6','30393d'],['843b35','eee5d3']]){const x=lum(f),y=lum(b);assert.ok((Math.max(x,y)+.05)/(Math.min(x,y)+.05)>=4.5,`${f}/${b}`)}});
+test('review fixtures and directory excluded from production bundle',()=>{const js=readdirSync('dist/assets').filter(f=>f.endsWith('.js')).map(f=>readFileSync('dist/assets/'+f,'utf8')).join('');for(const text of ['REVIEW_ONLY_SENTINEL','review-memory-only','界面审核目录','独立展示状态'])assert.equal(js.includes(text),false,text)});

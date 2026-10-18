@@ -1,0 +1,57 @@
+/* 2026-10-13: slightly taller paper over the scene, not a footer under it.
+   Keep task geometry separate; dialogue presentation never changes world targets. */
+.sceneFrame.steppedScene>.dialogue,
+.sceneFrame.steppedScene:not(:has(.englishOption))>.dialogue,
+.sceneFrame.steppedScene:has(.dialogue .englishOption)>.dialogue{
+ min-height:clamp(104px,17%,150px);height:auto;max-height:none;
+ bottom:22px;left:5%;right:5%;padding:14px 24px 44px;
+ display:block;font-size:16px;line-height:1.45;
+}
+.sceneFrame.steppedScene>.dialogue p,
+.sceneFrame.steppedScene:not(:has(.englishOption))>.dialogue p{
+ font-size:17px;line-height:1.5;margin:3px 0;
+}
+.sceneFrame.steppedScene>.dialogue .speaker,
+.sceneFrame.steppedScene:not(:has(.englishOption))>.dialogue .speaker{
+ font-size:14px;line-height:1.4;margin:0 0 5px;padding:2px 9px;
+}
+.sceneFrame.steppedScene>.dialogue .actions{bottom:10px;right:16px}
+.sceneFrame.steppedScene>.dialogue .actions button{
+ min-height:32px;font-size:13px;padding:4px 16px;
+}
+.sceneFrame.steppedScene:has(.dialogue .englishOption)>.dialogue{
+ padding-bottom:10px;
+}
+.sceneFrame.steppedScene:has(.dialogue .englishOption)>.dialogue .actions{
+ position:static;margin-top:9px;
+}
+.sceneFrame.steppedScene>.dialogue .actions button.englishOption{
+ min-height:32px;padding:4px 12px;
+}
+.sceneFrame.hasSceneChoices>.dialogue{
+ bottom:calc(var(--choice-height,120px) + 28px);padding-bottom:12px;
+}
+.sceneFrame.familyDialogue>.art>.sceneBackground{object-fit:contain}
+.sceneFrame.familyDialogue>.speakerPortrait{--face:clamp(82px,7.2vw,126px);width:clamp(230px,22vw,360px);left:7%}
+.large .sceneFrame.steppedScene>.dialogue p{font-size:19px}
+@media(max-width:1000px){
+ .sceneFrame.steppedScene>.dialogue,
+ .sceneFrame.steppedScene:not(:has(.englishOption))>.dialogue,
+ .sceneFrame.steppedScene:has(.dialogue .englishOption)>.dialogue{
+  min-height:100px;padding:10px 18px 39px;bottom:18px;
+ }
+ .sceneFrame.steppedScene>.dialogue p,
+ .sceneFrame.steppedScene:not(:has(.englishOption))>.dialogue p{font-size:15px;line-height:1.45}
+ .sceneFrame.steppedScene>.dialogue .speaker,
+ .sceneFrame.steppedScene:not(:has(.englishOption))>.dialogue .speaker{font-size:13px;margin-bottom:4px}
+ .sceneFrame.steppedScene:has(.dialogue .englishOption)>.dialogue{padding-bottom:8px}
+ .sceneFrame.hasSceneChoices>.dialogue{bottom:calc(var(--choice-height,120px) + 24px);padding-bottom:10px}
+ .sceneFrame.familyDialogue>.speakerPortrait{--face:66px;width:200px}
+ .large .sceneFrame.steppedScene>.dialogue p{font-size:17px}
+}
+@media(max-width:700px) and (max-height:700px){
+ .sceneFrame.steppedScene>.dialogue,
+ .sceneFrame.steppedScene:not(:has(.englishOption))>.dialogue,
+ .sceneFrame.steppedScene:has(.dialogue .englishOption)>.dialogue{min-height:84px;padding-top:7px}
+ .sceneFrame.familyDialogue>.speakerPortrait{--face:55px;width:170px}
+}

@@ -1,0 +1,36 @@
+.sceneObjects{position:absolute;inset:0;pointer-events:none;z-index:3}
+.sceneObjects>svg{position:absolute;width:100%;height:100%;overflow:hidden;pointer-events:none}
+.sceneObjects line{stroke:#eee5d3;stroke-width:1.5;stroke-dasharray:4 3;filter:drop-shadow(0 1px 1px #252d32)}
+.sceneObjects circle{fill:#843b35;stroke:#eee5d3;stroke-width:1.5}
+button.sceneObject{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;min-height:44px;padding:5px 12px;font-size:14px;background:#252d32f2;border:1px solid #eee5d3;color:#eee5d3;box-shadow:2px 3px 0 #252d3244;white-space:nowrap;display:flex;gap:8px;align-items:center}
+.sceneObject>span{border:1px solid #c8bca6;padding:1px 5px;font-size:12px}
+button.sceneObject[aria-pressed=true]{background:#eee5d3;color:#252d32;border-color:#252d32}
+button.sceneObject:focus-visible{outline:3px solid #eee5d3;outline-offset:3px}
+.objectActionHeading{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;color:#eee5d3;background:#252d32f0;padding:3px 8px;min-height:24px}
+.objectActionHeading button{min-height:24px;padding:2px 9px;font-size:12px;border:1px solid #eee5d3;box-shadow:none}
+.modal-phone .sceneChoices{position:static;flex-shrink:0;margin-top:8px}
+.modal-phone .objectActionHeading{display:none}
+@media(max-width:700px){button.sceneObject{font-size:12px;min-height:36px;padding:4px 6px;gap:4px}.sceneObject>span{font-size:10px}.objectActionHeading{font-size:10px}.objectActionHeading button{font-size:10px}}
+
+@media(max-width:700px){.sceneObjects{inset:70px 5% auto;display:flex;gap:5px;flex-wrap:wrap}.sceneObjects>svg{display:none}button.sceneObject{position:static;transform:none;max-width:100%}}
+
+.portraitLoadError{position:absolute;inset:8px 0 auto;background:#eee5d3;color:#843b35;font-size:13px;padding:8px;pointer-events:none}
+/* Modal owns interaction while the underlying game is inert; avoid duplicate action labels. */
+.game[inert] .sceneChoices,.game[inert] .sceneObjects{visibility:hidden}
+/* The independent review viewport is shorter than the player viewport. */
+.reviewStage .modal-phone{height:100%;max-height:100%;padding:6px 12px;overflow:visible}
+.reviewStage .modal-phone .modalScroll{height:100%;max-height:none;display:flex;flex-direction:column;overflow:visible}
+.reviewStage .modal-phone .modalToolbar{flex-shrink:0}
+.reviewStage .modal-phone .modalContent{flex:1;min-height:0;display:flex;flex-direction:column}
+.reviewStage .modal-phone h2{font-size:15px;margin:3px 0 5px;flex-shrink:0}
+.reviewStage .modal-phone .phoneDevice{flex:1;min-height:0;margin:4px auto;padding:8px 10px;display:flex;flex-direction:column}
+.reviewStage .modal-phone .phoneScreen{flex:1;min-height:0;padding:10px 12px}
+.reviewStage .modal-phone .phoneAppTitle{font-size:17px;padding-bottom:7px}
+.reviewStage .modal-phone .phoneTabs{padding-top:7px}
+.reviewStage .modal-phone .phoneTabs button{min-height:32px;padding:3px 5px}
+.reviewStage .modal-phone .messages{margin-top:10px;gap:10px}
+.reviewStage .modal-phone .messages article{padding:8px 12px}
+.reviewStage .modal-phone .messages p{font-size:15px;line-height:1.5;margin:7px 0}
+.reviewStage .large .modal-phone .messages p{font-size:17px}
+.reviewStage .modal-phone .messageStatus{font-size:11px;padding-top:5px}
+.reviewStage .modal-phone .phoneHomeBar{margin:7px auto 0;flex-shrink:0}
