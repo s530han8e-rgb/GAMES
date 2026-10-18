@@ -12,7 +12,9 @@
     "check:full": "node scripts/check-game.mjs --full",
     "check:watch": "node scripts/watch-checks.mjs",
     "check:stop": "node scripts/watch-checks.mjs --stop",
-    "demo": "node scripts/serve-demo.mjs"
+    "demo": "node scripts/serve-demo.mjs",
+    "check:ci": "node scripts/check-game.mjs --ci",
+    "check:ci-report": "node scripts/ci-report.mjs"
   },
   "dependencies": {
     "@fontsource/noto-sans-sc": "^5.3.0",

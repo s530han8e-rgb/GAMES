@@ -38,7 +38,7 @@ npm run check:full
 
 规则测试中的构建检查需要先执行 `npm run build`。完整检查使用 Playwright 和已安装的 Google Chrome，会检查正常流程、路线、结局、重试、存档恢复及代表界面；结果写入本地 `checks/`。测试程序可能包含剧情答案，不应在第一遍试玩前发给参与者。
 
-`npm run check:watch` 开启本地保存检查，`npm run check:stop` 停止。GitHub 云端自动测试尚未配置，不能把本地检查当作每次远程提交自动运行。
+`npm run check:watch` 开启本地保存检查，`npm run check:stop` 停止。GAMES 仓库根目录已准备提交自动检查流程，检查游戏目录的 push、pull request，并允许手动触发。云端是否通过以 Actions 实际结果为准。
 
 ## 文件范围
 
@@ -52,3 +52,13 @@ npm run check:full
 ## 使用与发布边界
 
 游戏剧情、美术和研究相关内容没有因此被授予开源许可。字体遵循各自随附授权；其他依赖遵循其原有许可证。本目录已按项目所有者确认公开存放，但尚未部署为在线试玩网站，也不代表真人体验、文化审核或最终发布验收完成。网站部署仍须另行确认。
+
+## 提交自动检查
+
+入口：[GAMES Actions](https://github.com/s530han8e-rgb/GAMES/actions/workflows/east-still-open-tests.yml)。本项目目录或检查流程变更时自动运行；不自动修改游戏、不部署网站、也不调用 AI。
+
+本地同等检查：`npm run check:ci`，随后 `npm run check:ci-report`。需要已安装 Google Chrome；云端使用标准 Ubuntu 24.04、Node.js 24 和 Chrome，不能代表 Windows/macOS 实机或全浏览器通过。
+
+摘要列出各阶段结果和失败位置；Actions 日志保存完整命令输出。附件最多 8 MiB、六张代表截图、保留一天；未收录项列在 attachment-index.json。截图和几何断言不能自动裁定美术、文化或真人体验。报告仅含模拟游戏状态和截图。
+
+公开仓库标准运行器执行时间按 GitHub 当前政策免费；附件存储仍受账号额度约束，不上传完整历史截图、构建或试玩包，不开启依赖缓存。参见 [GitHub Actions 计费说明](https://docs.github.com/en/billing/concepts/product-billing/github-actions)。
