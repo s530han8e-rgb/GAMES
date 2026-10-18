@@ -1,9 +1,10 @@
+import {publicPath} from '../public-path';
 import manifest from './formal-art.json';
 import aliases from './art-aliases.json';
 import type {State} from '../game/engine';
 export const formalAssets=manifest.assets;
-export const artAsset=(id:string)=>{const logical=(aliases as Record<string,string>)[id]||id;const a=manifest.assets.find(a=>a.assetId===logical||a.relativePath===id);return a?{...a,id:a.assetId,url:'/art/formal/'+a.relativePath}:undefined};
-export const formalUrl=(file:string)=>{const a=manifest.assets.find(a=>a.relativePath===file);if(!a)throw new Error('Resource outside formal whitelist: '+file);return '/art/formal/'+a.relativePath};
+export const artAsset=(id:string)=>{const logical=(aliases as Record<string,string>)[id]||id;const a=manifest.assets.find(a=>a.assetId===logical||a.relativePath===id);return a?{...a,id:a.assetId,url:publicPath('art/formal/'+a.relativePath)}:undefined};
+export const formalUrl=(file:string)=>{const a=manifest.assets.find(a=>a.relativePath===file);if(!a)throw new Error('Resource outside formal whitelist: '+file);return publicPath('art/formal/'+a.relativePath)};
 const backgrounds:Record<string,string>={BG_HOME:'BG_HOME_AFTER_HANDOFF',BG_ROAD:'BG_ROAD_ANOMALY',BG_BENCH:'BG_BENCH_EMPTY',BG_SHED:'BG_SHED_EMPTY',BG_SHELTER_OUT:'BG_SHELTER_OUT',BG_SHELTER_IN:'BG_SHELTER_IN_BASE',BG_DESK:'BG_DESK_EMPTY'};
 export function roadArtPhase(line:number,text:string){return line<1?'road':line<3||/包扎|手指/.test(text)?'reception':/棚屋|后续去向|发出警告/.test(text)?'shed':'conflict'}
 export function backgroundArt(asset:string,node:string,route:string,line:number,state?:State,reaction=false,lastReaction=false,dialogueSpeaker='',currentText=''){
